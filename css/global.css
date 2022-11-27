@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
 html,
 body,
 div,
@@ -138,12 +139,35 @@ a {
   text-decoration: none;
 }
 
-.section .container {
+.container {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
 }
 
-.section {
-  background-color: #fff;
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 32px;
+}
+.container .logo {
+  font-size: 40px;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
+.container .navigation-li {
+  display: inline-block;
+  margin-right: 50px;
+}
+.container .li-a:after {
+  content: url(../images/shopping-bag-icon.png);
+  display: inline-block;
+  margin-left: 50px;
 }/*# sourceMappingURL=global.css.map */

@@ -1,6 +1,21 @@
-.section {
-    background-color: #fff;
-    .container {
-        @extend %mycontainer;
+.container {
+    @extend %mycontainer;
+    @include d-flex(flex, space-between, center);
+    padding-top: 32px;
+    .logo {
+        font-size: 40px;
+        font-family: "Josefin Sans", sans-serif;
+        color: black;
+    }
+    .navigation-li {
+        display: inline-block;
+        margin-right: 50px;
+    }
+    .li-a {
+        &:after {
+            content: url(../images/shopping-bag-icon.png);
+            display: inline-block;
+            margin-left: 50px;
+        }
     }
 }
