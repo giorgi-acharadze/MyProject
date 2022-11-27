@@ -276,9 +276,9 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
 }
 #about-us .about-wrapper .left-img-box {
   max-width: 1105px;
@@ -287,7 +287,7 @@ a {
 #about-us .about-wrapper .left-img-box .chief-img {
   width: 560px;
 }
-#about-us .about-wrapper .right-img-box {
+#about-us .about-wrapper .right-p-box {
   max-width: 495px;
   width: 100%;
 }/*# sourceMappingURL=global.css.map */

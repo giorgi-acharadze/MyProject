@@ -103,7 +103,7 @@
 #about-us {
     @extend %mycontainer;
     .about-wrapper {
-        @include d-flex(flex, space-between, center);
+        @include d-flex(flex, space-between, start);
         .left-img-box {
             max-width: 1105px;
             width: 100%;
@@ -111,9 +111,12 @@
                 width: 560px;
             }
         }
-        .right-img-box {
+        .right-p-box {
             max-width: 495px;
             width: 100%;
+            h4 {
+                
+            }
         }
     }
 }
