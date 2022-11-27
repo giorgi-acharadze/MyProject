@@ -32,3 +32,60 @@
     width: 15px;
     display: inline-block;
 }
+#home {
+    @extend %mycontainer;
+    .home-wrapper {
+        @include d-flex(flex, flex-start, center);
+        .left-box {
+            width: 536px;
+            .left-h-box {
+                width: 534px;
+                h1 {
+                    font-size: 60px;
+                    line-height: 90px;
+                    font-family: "Josefin Sans", sans-serif;
+                    text-align: start;
+                    margin-bottom: 40px;
+                }
+            }
+            .p-box {
+                width: 480px;
+                margin-bottom: 60px;
+                p {
+                    font-size: 17px;
+                    color: #636465;
+                    line-height: 36px;
+                    font-family: "Poppins", sans-serif;
+                }
+            }
+            input {
+                width: 341px;
+                padding-left: 30px;
+                height: 60px;
+                border: none;
+                border-radius: 5px;
+                box-shadow: 3px 3px 6px #707070;
+                margin-top: 10px;
+            }
+            button {
+                font-size: 15px;
+                color: white;
+                background-color: #8cb560;
+                padding: 0px 37px;
+                margin-left: 20px;
+                height: 60px;
+                box-shadow: 3px 3px 6px #59882b;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+        .right-box {
+            margin-top: 45px;
+            margin-left: 70px;
+            .pizza {
+                width: 645px;
+            }
+        }
+    }
+}

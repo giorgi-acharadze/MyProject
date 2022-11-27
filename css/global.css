@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 html,
 body,
 div,
@@ -139,7 +140,7 @@ a {
   text-decoration: none;
 }
 
-.container {
+#home, .container {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
@@ -195,4 +196,69 @@ a {
 .bag-icon {
   width: 15px;
   display: inline-block;
+}
+
+#home .home-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#home .home-wrapper .left-box {
+  width: 536px;
+}
+#home .home-wrapper .left-box .left-h-box {
+  width: 534px;
+}
+#home .home-wrapper .left-box .left-h-box h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: start;
+  margin-bottom: 40px;
+}
+#home .home-wrapper .left-box .p-box {
+  width: 480px;
+  margin-bottom: 60px;
+}
+#home .home-wrapper .left-box .p-box p {
+  font-size: 17px;
+  color: #636465;
+  line-height: 36px;
+  font-family: "Poppins", sans-serif;
+}
+#home .home-wrapper .left-box input {
+  width: 341px;
+  padding-left: 30px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 6px #707070;
+          box-shadow: 3px 3px 6px #707070;
+  margin-top: 10px;
+}
+#home .home-wrapper .left-box button {
+  font-size: 15px;
+  color: white;
+  background-color: #8cb560;
+  padding: 0px 37px;
+  margin-left: 20px;
+  height: 60px;
+  -webkit-box-shadow: 3px 3px 6px #59882b;
+          box-shadow: 3px 3px 6px #59882b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#home .home-wrapper .right-box {
+  margin-top: 45px;
+  margin-left: 70px;
+}
+#home .home-wrapper .right-box .pizza {
+  width: 645px;
 }/*# sourceMappingURL=global.css.map */
