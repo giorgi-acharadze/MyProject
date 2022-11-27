@@ -1,3 +1,4 @@
+// header starts !//////////
 .container {
     @extend %mycontainer;
     @include d-flex(flex, space-between, center);
@@ -7,6 +8,11 @@
         font-size: 40px;
         font-family: "Josefin Sans", sans-serif;
         color: black;
+    }
+    .leaf-img {
+        width: 18px;
+        margin-top: -24px;
+        margin-left: -662px;
     }
     .right-box {
         @include d-flex(flex, space-between, center);
@@ -32,12 +38,15 @@
     width: 15px;
     display: inline-block;
 }
+// header ends !///////////////
+// home-section starts! ///////
 #home {
     @extend %mycontainer;
     .home-wrapper {
         @include d-flex(flex, flex-start, center);
         .left-box {
             width: 536px;
+            margin-top: 100px;
             .left-h-box {
                 width: 534px;
                 h1 {
@@ -50,7 +59,7 @@
             }
             .p-box {
                 width: 480px;
-                margin-bottom: 60px;
+                margin-bottom: 50px;
                 p {
                     font-size: 17px;
                     color: #636465;
@@ -80,12 +89,31 @@
                 cursor: pointer;
             }
         }
-        .right-box {
+        .right-img-box {
             margin-top: 45px;
             margin-left: 70px;
             .pizza {
                 width: 645px;
             }
+        }
+    }
+}
+// home-section ends!///////
+// about-us section starts!////
+#about-us {
+    @extend %mycontainer;
+    .about-wrapper {
+        @include d-flex(flex, space-between, center);
+        .left-img-box {
+            max-width: 1105px;
+            width: 100%;
+            .chief-img {
+                width: 560px;
+            }
+        }
+        .right-img-box {
+            max-width: 495px;
+            width: 100%;
         }
     }
 }

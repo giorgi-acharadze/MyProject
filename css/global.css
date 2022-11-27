@@ -140,7 +140,7 @@ a {
   text-decoration: none;
 }
 
-#home, .container {
+#about-us, #home, .container {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
@@ -163,6 +163,11 @@ a {
   font-size: 40px;
   font-family: "Josefin Sans", sans-serif;
   color: black;
+}
+.container .leaf-img {
+  width: 18px;
+  margin-top: -24px;
+  margin-left: -662px;
 }
 .container .right-box {
   display: -webkit-box;
@@ -211,6 +216,7 @@ a {
 }
 #home .home-wrapper .left-box {
   width: 536px;
+  margin-top: 100px;
 }
 #home .home-wrapper .left-box .left-h-box {
   width: 534px;
@@ -224,7 +230,7 @@ a {
 }
 #home .home-wrapper .left-box .p-box {
   width: 480px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 #home .home-wrapper .left-box .p-box p {
   font-size: 17px;
@@ -255,10 +261,33 @@ a {
   border-radius: 5px;
   cursor: pointer;
 }
-#home .home-wrapper .right-box {
+#home .home-wrapper .right-img-box {
   margin-top: 45px;
   margin-left: 70px;
 }
-#home .home-wrapper .right-box .pizza {
+#home .home-wrapper .right-img-box .pizza {
   width: 645px;
+}
+
+#about-us .about-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#about-us .about-wrapper .left-img-box {
+  max-width: 1105px;
+  width: 100%;
+}
+#about-us .about-wrapper .left-img-box .chief-img {
+  width: 560px;
+}
+#about-us .about-wrapper .right-img-box {
+  max-width: 495px;
+  width: 100%;
 }/*# sourceMappingURL=global.css.map */
