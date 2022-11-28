@@ -279,7 +279,7 @@ html {
 }
 
 #about-us .about-wrapper {
-  margin-top: 150px;
+  margin-top: 220px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -297,7 +297,7 @@ html {
 }
 #about-us .about-wrapper .left-img-box .leaf2 {
   position: absolute;
-  top: -100px;
+  top: 30px;
   left: 30px;
 }
 #about-us .about-wrapper .left-img-box .chief-img {
@@ -343,8 +343,23 @@ html {
 }
 
 #service .service-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
   max-width: 1170px;
   width: 100%;
+  margin-top: 180px;
 }
 #service .service-wrapper .card-box-wrapper {
   display: -webkit-box;
@@ -362,6 +377,7 @@ html {
   font-family: "Poppins", sans-serif;
   color: #febd00;
   margin-bottom: 16px;
+  text-align: center;
 }
 #service .service-wrapper .title-box h2 {
   font-size: 40px;
@@ -387,12 +403,25 @@ html {
   height: 347px;
   border-radius: 10px;
   background-color: #f8fbf5;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+#service .service-wrapper .card-box:hover {
+  -webkit-box-shadow: 3px 3px 6px #59882b;
+          box-shadow: 3px 3px 6px #59882b;
 }
 #service .service-wrapper .card-box .menu-icon {
   width: 70px;
   height: 70px;
+  margin-bottom: 23px;
 }
 #service .service-wrapper .card-box h4 {
   font-size: 24px;
   font-family: "Poppins", sans-serif;
+  margin-bottom: 25px;
+}
+#service .service-wrapper .card-box li {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  text-align: start;
 }/*# sourceMappingURL=global.css.map */

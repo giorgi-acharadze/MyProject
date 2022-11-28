@@ -107,7 +107,7 @@
 #about-us {
     @extend %mycontainer;
     .about-wrapper {
-        margin-top: 150px;
+        margin-top: 220px;
         @include d-flex(flex, space-between, start);
         .left-img-box {
             max-width: 1105px;
@@ -115,7 +115,7 @@
             position: relative;
             .leaf2 {
                 position: absolute;
-                top: -100px;
+                top: 30px;
                 left: 30px;
             }
             .chief-img {
@@ -164,8 +164,13 @@
 #service {
     @extend %mycontainer;
     .service-wrapper {
+        @include d-flex(flex, center, space-between);
+        flex-direction: column;
+        text-align: center;
+
         max-width: 1170px;
         width: 100%;
+        margin-top: 180px;
         .card-box-wrapper {
             @include d-flex(flex, space-between, center);
         }
@@ -175,6 +180,7 @@
                 font-family: "Poppins", sans-serif;
                 color: #febd00;
                 margin-bottom: 16px;
+                text-align: center;
             }
             h2 {
                 font-size: 40px;
@@ -190,13 +196,24 @@
             height: 347px;
             border-radius: 10px;
             background-color: #f8fbf5;
+            transition: all 0.3s ease-out;
+            &:hover {
+                box-shadow: 3px 3px 6px #59882b;
+            }
             .menu-icon {
                 width: 70px;
                 height: 70px;
+                margin-bottom: 23px;
             }
             h4 {
                 font-size: 24px;
                 font-family: "Poppins", sans-serif;
+                margin-bottom: 25px;
+            }
+            li {
+                font-size: 18px;
+                font-family: "Poppins", sans-serif;
+                text-align: start;
             }
         }
     }
