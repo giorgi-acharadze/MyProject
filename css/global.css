@@ -144,13 +144,13 @@ html {
   scroll-behavior: smooth;
 }
 
-#service, #about-us, #home, .container {
+#service, #about-us, #home {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
 }
 
-.container {
+header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,20 +160,21 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
   height: 53px;
-  padding-top: 32px;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  padding: 30px 30px;
 }
-.container .logo {
+header .logo {
   font-size: 40px;
   font-family: "Josefin Sans", sans-serif;
   color: black;
 }
-.container .leaf-img {
-  width: 18px;
-  margin-top: -24px;
-  margin-left: -662px;
-}
-.container .right-box {
+header .right-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -184,43 +185,43 @@ html {
       -ms-flex-align: center;
           align-items: center;
 }
-.container .navigation-li {
+header .navigation-li {
   display: inline-block;
   margin-right: 30px;
 }
-.container .navigation-li a {
+header .navigation-li a {
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   color: black;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
-.container .navigation-li a:hover {
+header .navigation-li a:hover {
   color: grey;
 }
-.container .navigation-li:last-child {
+header .navigation-li:last-child {
   margin-right: 40px;
 }
 
 .bag-icon {
   width: 15px;
   display: inline-block;
+  cursor: pointer;
 }
 
 #home .home-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 #home .home-wrapper .left-box {
   width: 536px;
-  margin-top: 100px;
 }
 #home .home-wrapper .left-box .left-h-box {
   width: 534px;
@@ -283,12 +284,12 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #about-us .about-wrapper .left-img-box {
   max-width: 1105px;
@@ -424,4 +425,8 @@ html {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   text-align: start;
+}
+
+#menu .p-img {
+  width: 300px;
 }/*# sourceMappingURL=global.css.map */

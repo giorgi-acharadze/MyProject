@@ -1,18 +1,18 @@
 // header starts !//////////
-.container {
-    @extend %mycontainer;
+header {
     @include d-flex(flex, space-between, center);
+    width: 100%;
     height: 53px;
-    padding-top: 32px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    padding: 30px 30px;
     .logo {
         font-size: 40px;
         font-family: "Josefin Sans", sans-serif;
         color: black;
-    }
-    .leaf-img {
-        width: 18px;
-        margin-top: -24px;
-        margin-left: -662px;
     }
     .right-box {
         @include d-flex(flex, space-between, center);
@@ -37,16 +37,17 @@
 .bag-icon {
     width: 15px;
     display: inline-block;
+    cursor: pointer;
 }
+
 // header ends !///////////////
 // home-section starts! ///////
 #home {
     @extend %mycontainer;
     .home-wrapper {
-        @include d-flex(flex, flex-start, center);
+        @include d-flex(flex, space-between, center);
         .left-box {
             width: 536px;
-            margin-top: 100px;
             .left-h-box {
                 width: 534px;
                 h1 {
@@ -108,7 +109,7 @@
     @extend %mycontainer;
     .about-wrapper {
         margin-top: 220px;
-        @include d-flex(flex, space-between, start);
+        @include d-flex(flex, center, center);
         .left-img-box {
             max-width: 1105px;
             width: 100%;
@@ -216,5 +217,10 @@
                 text-align: start;
             }
         }
+    }
+}
+#menu {
+    .p-img {
+        width: 300px;
     }
 }
