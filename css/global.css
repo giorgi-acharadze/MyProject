@@ -140,7 +140,11 @@ a {
   text-decoration: none;
 }
 
-#about-us, #home, .container {
+html {
+  scroll-behavior: smooth;
+}
+
+#service, #about-us, #home, .container {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
@@ -336,4 +340,59 @@ a {
 }
 #about-us .about-wrapper .right-p-box .btn2:hover {
   opacity: 0.8;
+}
+
+#service .service-wrapper {
+  max-width: 1170px;
+  width: 100%;
+}
+#service .service-wrapper .card-box-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#service .service-wrapper .title-box h4 {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  color: #febd00;
+  margin-bottom: 16px;
+}
+#service .service-wrapper .title-box h2 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin-bottom: 30px;
+}
+#service .service-wrapper .card-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 370px;
+  height: 347px;
+  border-radius: 10px;
+  background-color: #f8fbf5;
+}
+#service .service-wrapper .card-box .menu-icon {
+  width: 70px;
+  height: 70px;
+}
+#service .service-wrapper .card-box h4 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=global.css.map */

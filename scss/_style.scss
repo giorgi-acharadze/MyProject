@@ -161,3 +161,43 @@
         }
     }
 }
+#service {
+    @extend %mycontainer;
+    .service-wrapper {
+        max-width: 1170px;
+        width: 100%;
+        .card-box-wrapper {
+            @include d-flex(flex, space-between, center);
+        }
+        .title-box {
+            h4 {
+                font-size: 28px;
+                font-family: "Poppins", sans-serif;
+                color: #febd00;
+                margin-bottom: 16px;
+            }
+            h2 {
+                font-size: 40px;
+                font-family: "Poppins", sans-serif;
+                color: black;
+                margin-bottom: 30px;
+            }
+        }
+        .card-box {
+            @include d-flex(flex, center, center);
+            flex-direction: column;
+            width: 370px;
+            height: 347px;
+            border-radius: 10px;
+            background-color: #f8fbf5;
+            .menu-icon {
+                width: 70px;
+                height: 70px;
+            }
+            h4 {
+                font-size: 24px;
+                font-family: "Poppins", sans-serif;
+            }
+        }
+    }
+}
