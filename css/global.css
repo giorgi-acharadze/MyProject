@@ -425,4 +425,14 @@ header .navigation-li:last-child {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   text-align: start;
+}
+
+#menu .mywidth {
+  width: 200px;
+}
+#menu .mywidth2 {
+  width: 500px;
+}
+#menu .mymargin {
+  margin-left: 350px;
 }/*# sourceMappingURL=global.css.map */
