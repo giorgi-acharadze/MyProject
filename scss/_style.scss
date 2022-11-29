@@ -198,6 +198,7 @@ header {
             border-radius: 10px;
             background-color: #f8fbf5;
             transition: all 0.3s ease-out;
+            cursor: pointer;
             &:hover {
                 box-shadow: 3px 3px 6px #59882b;
             }

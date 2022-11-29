@@ -406,6 +406,7 @@ header .navigation-li:last-child {
   background-color: #f8fbf5;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  cursor: pointer;
 }
 #service .service-wrapper .card-box:hover {
   -webkit-box-shadow: 3px 3px 6px #59882b;
