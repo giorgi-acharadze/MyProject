@@ -144,7 +144,7 @@ html {
   scroll-behavior: smooth;
 }
 
-#service, #about-us, #home {
+#menu, #service, #about-us, #home {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
@@ -196,14 +196,14 @@ header .nav-item {
   margin-right: 20px;
 }
 header .nav-item .my-a {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   color: black;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
 header .nav-item .my-a:hover {
-  color: grey;
+  color: #636465;
 }
 header .nav-item:last-child {
   margin-right: 40px;
@@ -434,6 +434,48 @@ header .nav-item:last-child {
   text-align: start;
 }
 
+#menu .menu-wrapper {
+  margin-top: 50px;
+}
+#menu .menu-wrapper .menu-title-box h3 {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  color: #febd00;
+  margin-bottom: 16px;
+  text-align: center;
+}
+#menu .menu-wrapper .menu-title-box h1 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#menu .menu-wrapper .menu-title-box .menu-list-box {
+  margin-bottom: 30px;
+}
+#menu .menu-wrapper .menu-title-box .menu-list-box ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#menu .menu-wrapper .menu-title-box .menu-list-box ul li {
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  margin-right: 30px;
+}
+#menu .menu-wrapper .menu-title-box .menu-list-box ul li a {
+  color: black;
+}
+#menu .menu-wrapper .menu-title-box .menu-list-box ul li a:hover {
+  text-decoration: underline;
+}
 #menu .mywidth {
   width: 200px;
 }
