@@ -1,14 +1,21 @@
 // header starts !//////////
+body {
+    padding-top: 53px;
+}
+
 header {
-    @include d-flex(flex, space-between, center);
     width: 100%;
     height: 53px;
     background-color: white;
     position: fixed;
     top: 0px;
     left: 0px;
+    right: 0px;
     z-index: 100;
-    padding: 30px 30px;
+    .container {
+        @include d-flex(flex, space-between, center);
+        // padding: 30px 30px;
+    }
     .logo {
         font-size: 40px;
         font-family: "Josefin Sans", sans-serif;
@@ -46,7 +53,6 @@ header {
     @extend %mycontainer;
     .home-wrapper {
         @include d-flex(flex, space-between, center);
-        padding-top: 53px;
         .left-box {
             width: 536px;
             .left-h-box {
