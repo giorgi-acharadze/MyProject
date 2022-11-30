@@ -46,6 +46,7 @@ header {
     @extend %mycontainer;
     .home-wrapper {
         @include d-flex(flex, space-between, center);
+        padding-top: 53px;
         .left-box {
             width: 536px;
             .left-h-box {
