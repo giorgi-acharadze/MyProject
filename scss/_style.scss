@@ -24,18 +24,20 @@ header {
     .right-box {
         @include d-flex(flex, space-between, center);
     }
-    .navigation-li {
+    .nav-item {
         display: inline-block;
-        margin-right: 30px;
-        a {
-            font-family: "Josefin Sans", sans-serif;
-            font-size: 20px;
-            color: black;
-            transition: color 0.3s;
-            &:hover {
-                color: grey;
+        margin-right: 20px;
+            .my-a {
+                font-family: "Josefin Sans", sans-serif;
+                font-size: 20px;
+                color: black;
+                transition: color 0.3s;
+                &:hover {
+                    color: grey;
+                }
             }
-        }
+
+       
         &:last-child {
             margin-right: 40px;
         }

@@ -191,21 +191,21 @@ header .right-box {
       -ms-flex-align: center;
           align-items: center;
 }
-header .navigation-li {
+header .nav-item {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 20px;
 }
-header .navigation-li a {
+header .nav-item .my-a {
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   color: black;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
-header .navigation-li a:hover {
+header .nav-item .my-a:hover {
   color: grey;
 }
-header .navigation-li:last-child {
+header .nav-item:last-child {
   margin-right: 40px;
 }
 
