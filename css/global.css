@@ -285,8 +285,10 @@ header .nav-item:last-child {
   width: 600px;
 }
 
+#about-us {
+  margin-top: 300px;
+}
 #about-us .about-wrapper {
-  margin-top: 220px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -349,6 +351,9 @@ header .nav-item:last-child {
   opacity: 0.8;
 }
 
+#service {
+  margin-top: 300px;
+}
 #service .service-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -366,7 +371,6 @@ header .nav-item:last-child {
   text-align: center;
   max-width: 1170px;
   width: 100%;
-  margin-top: 180px;
 }
 #service .service-wrapper .card-box-wrapper {
   display: -webkit-box;
@@ -383,7 +387,6 @@ header .nav-item:last-child {
   font-size: 28px;
   font-family: "Poppins", sans-serif;
   color: #febd00;
-  margin-top: 50px;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -435,6 +438,9 @@ header .nav-item:last-child {
   text-align: start;
 }
 
+#menu {
+  margin-top: 300px;
+}
 #menu .menu-wrapper {
   margin-top: 50px;
 }
@@ -442,7 +448,6 @@ header .nav-item:last-child {
   font-size: 28px;
   font-family: "Poppins", sans-serif;
   color: #febd00;
-  margin-top: 50px;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -491,6 +496,9 @@ header .nav-item:last-child {
   margin-left: 350px;
 }
 
+#testimonials {
+  margin-top: 200px;
+}
 #testimonials .testimonials-wrapper .testimonial-title-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -510,7 +518,6 @@ header .nav-item:last-child {
   font-size: 28px;
   font-family: "Poppins", sans-serif;
   color: #febd00;
-  margin-top: 100px;
   margin-bottom: 16px;
   text-align: center;
 }
