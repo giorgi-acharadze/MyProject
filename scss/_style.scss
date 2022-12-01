@@ -170,6 +170,8 @@ header {
         }
     }
 }
+// about-section ends!....>
+// setvice-section starts!.....>
 #service {
     @extend %mycontainer;
     .service-wrapper {
@@ -188,6 +190,7 @@ header {
                 font-size: 28px;
                 font-family: "Poppins", sans-serif;
                 color: #febd00;
+                margin-top: 50px;
                 margin-bottom: 16px;
                 text-align: center;
             }
@@ -228,6 +231,8 @@ header {
         }
     }
 }
+// service-section end1 !.....>
+// menu-section starts! ! ....>
 #menu {
     @extend %mycontainer;
     .menu-wrapper {
@@ -237,6 +242,7 @@ header {
                 font-size: 28px;
                 font-family: "Poppins", sans-serif;
                 color: #febd00;
+                margin-top: 50px;
                 margin-bottom: 16px;
                 text-align: center;
             }
@@ -278,5 +284,70 @@ header {
     }
     .mymargin {
         margin-left: 350px;
+    }
+}
+// menu-menu-section ends !....>
+// testimonial-section starts! >>>>>
+#testimonials {
+    @extend %mycontainer;
+    .testimonials-wrapper {
+        .testimonial-title-box {
+            @include d-flex(flex, center, center);
+            flex-direction: column;
+            h4 {
+                font-size: 28px;
+                font-family: "Poppins", sans-serif;
+                color: #febd00;
+                margin-top: 100px;
+                margin-bottom: 16px;
+                text-align: center;
+            }
+            h1 {
+                font-size: 40px;
+                font-family: "Poppins", sans-serif;
+                color: black;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+        }
+        .testimonial-user-box {
+            width: 360px;
+            background-color: white;
+            border: 1px solid #f0f2f5;
+            border-radius: 6px;
+            .user-p-box {
+                font-size: 13px;
+                font-family: "Poppins", sans-serif;
+                padding: 8px;
+            }
+            .user-img-box {
+                @include d-flex(flex, flex-start, center);
+                background-color: #f0f2f5;
+                border-radius: 8px;
+                img {
+                    padding: 8px;
+                    cursor: pointer;
+                }
+                h4 {
+                    font-size: 14px;
+                    font-family: "Josefin Sans", sans-serif;
+                    cursor: pointer;
+                }
+                h3 {
+                    font-size: 14px;
+                    color: #9e9e9e;
+                    padding-top: 6px;
+                    font-family: "Josefin Sans", sans-serif;
+                    cursor: pointer;
+                }
+            }
+        }
+        .user-box-wrapper1 {
+            @include d-flex(flex, space-between, center);
+        }
+        .user-box-wrapper2 {
+            @include d-flex(flex, space-evenly, center);
+            margin-top: 30px;
+        }
     }
 }
