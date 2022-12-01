@@ -144,7 +144,7 @@ html {
   scroll-behavior: smooth;
 }
 
-#testimonials, #menu, #service, #about-us, #home {
+#contact, #testimonials, #menu, #service, #about-us, #home {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
@@ -596,4 +596,86 @@ header .nav-item:last-child {
 }
 #testimonials .testimonials-wrapper .img4 {
   margin-left: 900px;
+}
+
+#contact .contact-wrapper .form-box {
+  width: 400px;
+  height: 600px;
+}
+#contact .contact-wrapper .form-box .left-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#contact .contact-wrapper .form-box .left-box h1 {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+}
+#contact .contact-wrapper .form-box .left-box .mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#contact .contact-wrapper .form-box .left-box .mail .fa-regular {
+  margin-right: 8px;
+}
+#contact .contact-wrapper .form-box .left-box .mail a {
+  color: black;
+}
+#contact .contact-wrapper .form-box .left-box .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#contact .contact-wrapper .form-box .left-box .phone .fa-solid {
+  margin-right: 8px;
+}
+#contact .contact-wrapper .form-box .left-box .phone h4 {
+  color: black;
+}
+#contact .contact-wrapper .form-box .left-box .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+#contact .contact-wrapper .form-box .left-box .location .fa-solid {
+  margin-right: 8px;
+}
+#contact .contact-wrapper .form-box .left-box .location a {
+  color: black;
 }/*# sourceMappingURL=global.css.map */

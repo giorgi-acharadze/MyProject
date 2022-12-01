@@ -358,3 +358,56 @@ header {
         }
     }
 }
+// testimonial-section ends!!...>
+// contact-section starts!....>
+#contact {
+    @extend %mycontainer;
+    .contact-wrapper {
+        .form-box {
+            width: 400px;
+            height: 600px;
+            .left-box {
+                @include d-flex(flex, center, flex-start);
+                flex-direction: column;
+                h1 {
+                    font-size: 28px;
+                    font-family: "Poppins", sans-serif;
+                    margin-bottom: 30px;
+                }
+                .mail {
+                    @include d-flex(flex, start, center);
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                    cursor: pointer;
+                    .fa-regular {
+                        margin-right: 8px;
+                    }
+                    a {
+                        color: black;
+                    }
+                }
+                .phone {
+                    @include d-flex(flex, start, center);
+                    margin-bottom: 20px;
+                    cursor: pointer;
+                    .fa-solid {
+                        margin-right: 8px;
+                    }
+                    h4 {
+                        color: black;
+                    }
+                }
+                .location {
+                    @include d-flex(flex, start, center);
+                    cursor: pointer;
+                    .fa-solid {
+                        margin-right: 8px;
+                    }
+                    a {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
