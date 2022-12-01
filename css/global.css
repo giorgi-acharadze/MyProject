@@ -468,7 +468,10 @@ header .nav-item:last-child {
 #menu .menu-wrapper .menu-title-box .menu-list-box ul li {
   font-size: 18px;
   font-family: "Josefin Sans", sans-serif;
-  margin-right: 30px;
+  margin-right: 20px;
+}
+#menu .menu-wrapper .menu-title-box .menu-list-box ul li:last-child {
+  margin: 0px;
 }
 #menu .menu-wrapper .menu-title-box .menu-list-box ul li a {
   color: black;

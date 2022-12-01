@@ -254,7 +254,10 @@ header {
                     li {
                         font-size: 18px;
                         font-family: "Josefin Sans", sans-serif;
-                        margin-right: 30px;
+                        margin-right: 20px;
+                        &:last-child {
+                            margin: 0px;
+                        }
                         a {
                             color: black;
                             &:hover {
