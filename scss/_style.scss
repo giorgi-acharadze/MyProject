@@ -175,6 +175,9 @@ header {
 #service {
     @extend %mycontainer;
     margin-top: 300px;
+    .img5 {
+        margin-left: 950px;
+    }
     .service-wrapper {
         @include d-flex(flex, center, space-between);
         flex-direction: column;
@@ -236,7 +239,6 @@ header {
     @extend %mycontainer;
     margin-top: 300px;
     .menu-wrapper {
-        margin-top: 50px;
         .menu-title-box {
             h3 {
                 font-size: 28px;
@@ -290,6 +292,9 @@ header {
 #testimonials {
     margin-top: 200px;
     @extend %mycontainer;
+    .img4 {
+        margin-left: 950px;
+    }
     .testimonials-wrapper {
         .testimonial-title-box {
             @include d-flex(flex, center, center);
@@ -347,6 +352,9 @@ header {
         .user-box-wrapper2 {
             @include d-flex(flex, space-evenly, center);
             margin-top: 30px;
+        }
+        .img4 {
+            margin-left: 900px;
         }
     }
 }

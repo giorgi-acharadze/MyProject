@@ -354,6 +354,9 @@ header .nav-item:last-child {
 #service {
   margin-top: 300px;
 }
+#service .img5 {
+  margin-left: 950px;
+}
 #service .service-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -441,9 +444,6 @@ header .nav-item:last-child {
 #menu {
   margin-top: 300px;
 }
-#menu .menu-wrapper {
-  margin-top: 50px;
-}
 #menu .menu-wrapper .menu-title-box h3 {
   font-size: 28px;
   font-family: "Poppins", sans-serif;
@@ -498,6 +498,9 @@ header .nav-item:last-child {
 
 #testimonials {
   margin-top: 200px;
+}
+#testimonials .img4 {
+  margin-left: 950px;
 }
 #testimonials .testimonials-wrapper .testimonial-title-box {
   display: -webkit-box;
@@ -590,4 +593,7 @@ header .nav-item:last-child {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 30px;
+}
+#testimonials .testimonials-wrapper .img4 {
+  margin-left: 900px;
 }/*# sourceMappingURL=global.css.map */
