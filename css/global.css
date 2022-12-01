@@ -197,13 +197,13 @@ header .nav-item {
 }
 header .nav-item .my-a {
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color: black;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
 header .nav-item .my-a:hover {
-  color: #636465;
+  color: #7b7e81 !important;
 }
 header .nav-item:last-child {
   margin-right: 40px;
