@@ -261,6 +261,7 @@ header .nav-item:last-child {
 }
 #home .home-wrapper .left-box button {
   font-size: 15px;
+  font-family: "Poppins", sans-serif;
   color: white;
   background-color: #8cb560;
   padding: 0px 37px;
@@ -339,6 +340,7 @@ header .nav-item:last-child {
   height: 70px;
   color: white;
   font-size: 15px;
+  font-family: "Poppins", sans-serif;
   background-color: #8cb560;
   border: none;
   border-radius: 5px;
@@ -598,9 +600,25 @@ header .nav-item:last-child {
   margin-left: 900px;
 }
 
+#contact .contact-wrapper {
+  margin-top: 70px;
+}
 #contact .contact-wrapper .form-box {
-  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1170px;
   height: 600px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-shadow: 1px 2px 6px #636465;
+          box-shadow: 1px 2px 6px #636465;
 }
 #contact .contact-wrapper .form-box .left-box {
   display: -webkit-box;
@@ -616,9 +634,10 @@ header .nav-item:last-child {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 50px;
 }
 #contact .contact-wrapper .form-box .left-box h1 {
-  font-size: 28px;
+  font-size: 40px;
   font-family: "Poppins", sans-serif;
   margin-bottom: 30px;
 }
@@ -641,6 +660,7 @@ header .nav-item:last-child {
 }
 #contact .contact-wrapper .form-box .left-box .mail a {
   color: black;
+  font-family: "Josefin Sans", sans-serif;
 }
 #contact .contact-wrapper .form-box .left-box .phone {
   display: -webkit-box;
@@ -660,6 +680,7 @@ header .nav-item:last-child {
 }
 #contact .contact-wrapper .form-box .left-box .phone h4 {
   color: black;
+  font-family: "Josefin Sans", sans-serif;
 }
 #contact .contact-wrapper .form-box .left-box .location {
   display: -webkit-box;
@@ -678,4 +699,55 @@ header .nav-item:last-child {
 }
 #contact .contact-wrapper .form-box .left-box .location a {
   color: black;
+  font-family: "Josefin Sans", sans-serif;
+}
+#contact .contact-wrapper .form-box .right-box {
+  background: whitesmoke;
+  border-radius: 4px;
+  padding: 15px;
+}
+#contact .contact-wrapper .form-box .right-box .r-title-box h2 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+}
+#contact .contact-wrapper .form-box .right-box form input {
+  width: 300px;
+  height: 30px;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+#contact .contact-wrapper .form-box .right-box form label {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+#contact .contact-wrapper .form-box .right-box form textarea {
+  width: 300px;
+  height: 60px;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+#contact .contact-wrapper .form-box .right-box button {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #8cb560;
+  padding: 0px 37px;
+  margin-top: 20px;
+  height: 30px;
+  -webkit-box-shadow: 3px 3px 6px #59882b;
+          box-shadow: 3px 3px 6px #59882b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#contact .contact-wrapper .form-box .right-box button:hover {
+  opacity: 0.8;
 }/*# sourceMappingURL=global.css.map */

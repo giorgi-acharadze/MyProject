@@ -87,6 +87,7 @@ header {
             }
             button {
                 font-size: 15px;
+                font-family: "Poppins", sans-serif;
                 color: white;
                 background-color: #8cb560;
                 padding: 0px 37px;
@@ -157,6 +158,7 @@ header {
                 height: 70px;
                 color: white;
                 font-size: 15px;
+                font-family: "Poppins", sans-serif;
                 background-color: #8cb560;
                 border: none;
                 border-radius: 5px;
@@ -363,14 +365,21 @@ header {
 #contact {
     @extend %mycontainer;
     .contact-wrapper {
+        margin-top: 70px;
         .form-box {
-            width: 400px;
+            @include d-flex(flex, center, center);
+            max-width: 1170px;
             height: 600px;
+            width: 100%;
+            margin: 0 auto;
+            box-shadow: 1px 2px 6px #636465;
+
             .left-box {
                 @include d-flex(flex, center, flex-start);
                 flex-direction: column;
+                padding: 50px;
                 h1 {
-                    font-size: 28px;
+                    font-size: 40px;
                     font-family: "Poppins", sans-serif;
                     margin-bottom: 30px;
                 }
@@ -384,6 +393,7 @@ header {
                     }
                     a {
                         color: black;
+                        font-family: "Josefin Sans", sans-serif;
                     }
                 }
                 .phone {
@@ -395,6 +405,7 @@ header {
                     }
                     h4 {
                         color: black;
+                        font-family: "Josefin Sans", sans-serif;
                     }
                 }
                 .location {
@@ -405,6 +416,59 @@ header {
                     }
                     a {
                         color: black;
+                        font-family: "Josefin Sans", sans-serif;
+                    }
+                }
+            }
+            .right-box {
+                background: whitesmoke;
+                border-radius: 4px;
+                padding: 15px;
+                .r-title-box {
+                    h2 {
+                        font-size: 30px;
+                        font-family: "Poppins", sans-serif;
+                        margin-bottom: 30px;
+                    }
+                }
+                form {
+                    input {
+                        width: 300px;
+                        height: 30px;
+                        font-size: 14px;
+                        padding: 10px;
+                        border: 1px solid grey;
+                        border-radius: 6px;
+                        margin-top: 10px;
+                    }
+                    label {
+                        font-size: 16px;
+                        font-family: "Poppins", sans-serif;
+                    }
+                    textarea {
+                        width: 300px;
+                        height: 60px;
+                        font-size: 15px;
+                        padding: 10px;
+                        border-radius: 4px;
+                        margin-top: 20px;
+                    }
+                }
+                button {
+                    font-size: 15px;
+                    font-family: "Poppins", sans-serif;
+                    color: white;
+                    background-color: #8cb560;
+                    padding: 0px 37px;
+                    margin-top: 20px;
+                    height: 30px;
+                    box-shadow: 3px 3px 6px #59882b;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    &:hover {
+                        opacity: 0.8;
                     }
                 }
             }
