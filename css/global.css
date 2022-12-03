@@ -828,7 +828,7 @@ header .nav-item:last-child {
   gap: 25px;
 }
 .footer .footer-wrapper .footer-list1-box .f-ul-1 a {
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   color: #585858;
 }
@@ -858,7 +858,7 @@ header .nav-item:last-child {
   gap: 25px;
 }
 .footer .footer-wrapper .footer-list2-box .f-ul-2 a {
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   color: #585858;
 }
@@ -878,7 +878,7 @@ header .nav-item:last-child {
   margin-top: 40px;
 }
 .footer .footer-wrapper .footer-contact-box h4 {
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   color: #585858;
 }/*# sourceMappingURL=global.css.map */
