@@ -615,6 +615,9 @@ header .nav-item:last-child {
 #contact {
   margin-bottom: 150px;
 }
+#contact .d-img6 {
+  margin-left: 900px;
+}
 #contact .contact-wrapper {
   margin-top: 70px;
 }
@@ -790,6 +793,9 @@ header .nav-item:last-child {
       -ms-flex-align: center;
           align-items: center;
 }
+.footer .footer-wrapper .f-img-1 {
+  width: 170px;
+}
 .footer .footer-wrapper .social-box {
   width: 375px;
 }
@@ -881,4 +887,7 @@ header .nav-item:last-child {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   color: #585858;
+}
+.footer .footer-wrapper .f-img-2 {
+  width: 150px;
 }/*# sourceMappingURL=global.css.map */

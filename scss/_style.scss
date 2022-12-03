@@ -373,6 +373,9 @@ header {
 #contact {
     @extend %mycontainer;
     margin-bottom: 150px;
+    .d-img6 {
+        margin-left: 900px;
+    }
     .contact-wrapper {
         margin-top: 70px;
         .form-box {
@@ -497,6 +500,9 @@ header {
     background-color: #f8fbf5;
     .footer-wrapper {
         @include d-flex(flex, space-between, center);
+        .f-img-1 {
+            width: 170px;
+        }
         .social-box {
             width: 375px;
             img {
@@ -563,6 +569,9 @@ header {
                 font-family: "Poppins", sans-serif;
                 color: #585858;
             }
+        }
+        .f-img-2 {
+            width: 150px;
         }
     }
 }
