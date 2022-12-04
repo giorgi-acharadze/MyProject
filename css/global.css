@@ -506,10 +506,6 @@ header .nav-item:last-child {
   margin: 0 auto;
   padding: 20px;
   border-radius: 8px;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-#menu .menu-text-box:hover {
   -webkit-box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
           box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
 }

@@ -297,10 +297,7 @@ header {
         margin: 0 auto;
         padding: 20px;
         border-radius: 8px;
-        transition: all 0.5s ease;
-        &:hover {
-            box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
-        }
+        box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
         h2 {
             font-size: 28px;
             font-family: "Poppins", sans-serif;
@@ -636,3 +633,4 @@ header {
         }
     }
 }
+// footer ends !....>
