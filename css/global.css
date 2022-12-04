@@ -500,6 +500,33 @@ header .nav-item:last-child {
 #menu .mymargin {
   margin-left: 350px;
 }
+#menu .menu-text-box {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#menu .menu-text-box:hover {
+  -webkit-box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
+          box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
+}
+#menu .menu-text-box h2 {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  color: #febd00;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+#menu .menu-text-box p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  text-align: start;
+  line-height: 40px;
+}
 
 #testimonials {
   margin-top: 140px;
@@ -632,7 +659,7 @@ header .nav-item:last-child {
       -ms-flex-align: center;
           align-items: center;
   max-width: 1170px;
-  height: 600px;
+  height: 550px;
   width: 100%;
   margin: 0 auto;
   border: none;
