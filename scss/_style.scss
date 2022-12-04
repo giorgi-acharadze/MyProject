@@ -496,10 +496,14 @@ header {
 // contact-section ends ! ......>
 // footer starts !......>
 .footer {
-    height: 300px;
+    @include d-flex(flex, space-between, center);
+    height: 400px;
+    width: 100%;
     background-color: #f8fbf5;
     .footer-wrapper {
         @include d-flex(flex, space-between, center);
+        width: 100%;
+
         .f-img-1 {
             width: 170px;
         }
@@ -512,7 +516,39 @@ header {
                 font-size: 18px;
                 font-family: "Poppins", sans-serif;
                 line-height: 30px;
+                margin-bottom: 30px;
                 color: #585858;
+            }
+            .soc-icon-box {
+                @include d-flex(flex, flex-start, center);
+                gap: 20px;
+                .facebook-icon {
+                    background-color: #8cb560;
+                    padding: 10px;
+                    border-radius: 5px;
+                    .fa-facebook {
+                        font-size: 20px;
+                        color: white;
+                    }
+                }
+                .twitter-icon {
+                    background-color: #8cb560;
+                    padding: 10px;
+                    border-radius: 5px;
+                    .fa-twitter {
+                        font-size: 20px;
+                        color: white;
+                    }
+                }
+                .instagram-icon {
+                    background-color: #8cb560;
+                    padding: 10px;
+                    border-radius: 5px;
+                    .fa-instagram {
+                        font-size: 20px;
+                        color: white;
+                    }
+                }
             }
         }
         .footer-list1-box {
