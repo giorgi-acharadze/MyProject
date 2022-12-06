@@ -197,6 +197,7 @@ header .nav-item .my-a {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   color: black;
+  font-weight: 500;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }

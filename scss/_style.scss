@@ -29,6 +29,7 @@ header {
             font-family: "Montserrat", sans-serif;
             font-size: $fsize01;
             color: $colblack;
+            font-weight: 500;
             transition: color 0.3s;
             &:hover {
                 color: $color01 !important;
