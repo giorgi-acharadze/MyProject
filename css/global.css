@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;400;500;600;700&display=swap");
 html,
 body,
 div,
@@ -176,8 +176,6 @@ header .container {
           align-items: center;
 }
 header .logo {
-  font-size: 40px;
-  font-family: "Josefin Sans", sans-serif;
   color: black;
 }
 header .right-box {
@@ -196,7 +194,7 @@ header .nav-item {
   margin-right: 20px;
 }
 header .nav-item .my-a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   color: black;
   -webkit-transition: color 0.3s;
@@ -236,7 +234,7 @@ header .nav-item:last-child {
 #home .home-wrapper .left-box .left-h-box h1 {
   font-size: 60px;
   line-height: 90px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Anek Telugu", sans-serif;
   text-align: start;
   margin-bottom: 40px;
 }
@@ -248,7 +246,7 @@ header .nav-item:last-child {
   font-size: 17px;
   color: #636465;
   line-height: 36px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 #home .home-wrapper .left-box input {
   width: 341px;
@@ -262,7 +260,7 @@ header .nav-item:last-child {
 }
 #home .home-wrapper .left-box button {
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
   background-color: #8cb560;
   padding: 0px 37px;
@@ -321,19 +319,19 @@ header .nav-item:last-child {
 }
 #about-us .about-wrapper .right-p-box h4 {
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #febd00;
   margin-bottom: 16px;
 }
 #about-us .about-wrapper .right-p-box h2 {
   font-size: 40px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Anek Telugu", sans-serif;
   color: black;
   margin-bottom: 30px;
 }
 #about-us .about-wrapper .right-p-box .p1 {
   font-size: 17px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #636465;
   line-height: 30px;
 }
@@ -344,7 +342,7 @@ header .nav-item:last-child {
   font-size: 15px;
   -webkit-box-shadow: 3px 3px 6px #59882b;
           box-shadow: 3px 3px 6px #59882b;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #8cb560;
   border: none;
   border-radius: 5px;
@@ -394,14 +392,14 @@ header .nav-item:last-child {
 }
 #service .service-wrapper .title-box h4 {
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #febd00;
   margin-bottom: 16px;
   text-align: center;
 }
 #service .service-wrapper .title-box h2 {
   font-size: 40px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Anek Telugu", sans-serif;
   color: black;
   margin-bottom: 30px;
 }
@@ -438,12 +436,12 @@ header .nav-item:last-child {
 }
 #service .service-wrapper .card-box h4 {
   font-size: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 25px;
 }
 #service .service-wrapper .card-box li {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: start;
 }
 
@@ -452,14 +450,14 @@ header .nav-item:last-child {
 }
 #menu .menu-wrapper .menu-title-box h3 {
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #febd00;
   margin-bottom: 16px;
   text-align: center;
 }
 #menu .menu-wrapper .menu-title-box h1 {
   font-size: 40px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Anek Telugu", sans-serif;
   color: black;
   margin-bottom: 30px;
   text-align: center;
@@ -480,8 +478,13 @@ header .nav-item:last-child {
 }
 #menu .menu-wrapper .menu-title-box .menu-list-box ul li {
   font-size: 18px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-right: 30px;
+  border: 2px solid #7b7e81;
+  border-radius: 10px;
+  padding: 8px 12px;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
 }
 #menu .menu-wrapper .menu-title-box .menu-list-box ul li:last-child {
   margin: 0px;
@@ -490,7 +493,7 @@ header .nav-item:last-child {
   color: black;
 }
 #menu .menu-wrapper .menu-title-box .menu-list-box ul li a:hover {
-  text-decoration: underline;
+  color: #585858;
 }
 #menu .mywidth {
   width: 200px;
@@ -512,17 +515,18 @@ header .nav-item:last-child {
 }
 #menu .menu-text-box h2 {
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
-  color: #febd00;
+  font-family: "Anek Telugu", sans-serif;
+  color: black;
   margin-top: 40px;
   margin-bottom: 16px;
   text-align: center;
 }
 #menu .menu-text-box p {
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: start;
   line-height: 40px;
+  color: #7b7e81;
 }
 
 #testimonials {
@@ -551,14 +555,14 @@ header .nav-item:last-child {
 }
 #testimonials .testimonials-wrapper .testimonial-title-box h4 {
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #febd00;
   margin-bottom: 16px;
   text-align: center;
 }
 #testimonials .testimonials-wrapper .testimonial-title-box h1 {
   font-size: 40px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Anek Telugu", sans-serif;
   color: black;
   margin-bottom: 30px;
   text-align: center;
@@ -577,7 +581,8 @@ header .nav-item:last-child {
 }
 #testimonials .testimonials-wrapper .testimonial-user-box .user-p-box {
   font-size: 13px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  line-height: 16px;
   padding: 8px;
 }
 #testimonials .testimonials-wrapper .testimonial-user-box .user-img-box {
@@ -599,14 +604,14 @@ header .nav-item:last-child {
 }
 #testimonials .testimonials-wrapper .testimonial-user-box .user-img-box h4 {
   font-size: 14px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   cursor: pointer;
 }
 #testimonials .testimonials-wrapper .testimonial-user-box .user-img-box h3 {
   font-size: 14px;
   color: #9e9e9e;
   padding-top: 6px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Anek Telugu", sans-serif;
   cursor: pointer;
 }
 #testimonials .testimonials-wrapper .user-box-wrapper1 {
@@ -682,7 +687,7 @@ header .nav-item:last-child {
 }
 #contact .contact-wrapper .form-box .left-box h1 {
   font-size: 40px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Anek Telugu", sans-serif;
   margin-bottom: 30px;
 }
 #contact .contact-wrapper .form-box .left-box .mail {
@@ -704,7 +709,7 @@ header .nav-item:last-child {
 }
 #contact .contact-wrapper .form-box .left-box .mail a {
   color: black;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 #contact .contact-wrapper .form-box .left-box .phone {
   display: -webkit-box;
@@ -724,7 +729,7 @@ header .nav-item:last-child {
 }
 #contact .contact-wrapper .form-box .left-box .phone h4 {
   color: black;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 #contact .contact-wrapper .form-box .left-box .location {
   display: -webkit-box;
@@ -743,7 +748,7 @@ header .nav-item:last-child {
 }
 #contact .contact-wrapper .form-box .left-box .location a {
   color: black;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 #contact .contact-wrapper .form-box .right-box {
   background: whitesmoke;
@@ -758,7 +763,7 @@ header .nav-item:last-child {
 }
 #contact .contact-wrapper .form-box .right-box .r-title-box h2 {
   font-size: 30px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Anek Telugu", sans-serif;
   margin-bottom: 30px;
 }
 #contact .contact-wrapper .form-box .right-box form input {
@@ -772,7 +777,7 @@ header .nav-item:last-child {
 }
 #contact .contact-wrapper .form-box .right-box form label {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 #contact .contact-wrapper .form-box .right-box form textarea {
   width: 300px;
@@ -784,7 +789,7 @@ header .nav-item:last-child {
 }
 #contact .contact-wrapper .form-box .right-box button {
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
   background-color: #8cb560;
   padding: 0px 37px;
@@ -839,7 +844,7 @@ header .nav-item:last-child {
 }
 .footer .footer-wrapper .social-box p {
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 30px;
   margin-bottom: 30px;
   color: #585858;
@@ -895,7 +900,7 @@ header .nav-item:last-child {
 }
 .footer .footer-wrapper .footer-list1-box h3 {
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Anek Telugu", sans-serif;
   margin-top: 40px;
 }
 .footer .footer-wrapper .footer-list1-box .f-ul-1 {
@@ -910,7 +915,7 @@ header .nav-item:last-child {
 }
 .footer .footer-wrapper .footer-list1-box .f-ul-1 a {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #585858;
 }
 .footer .footer-wrapper .footer-list2-box {
@@ -925,7 +930,7 @@ header .nav-item:last-child {
 }
 .footer .footer-wrapper .footer-list2-box h3 {
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Anek Telugu", sans-serif;
   margin-top: 40px;
 }
 .footer .footer-wrapper .footer-list2-box .f-ul-2 {
@@ -940,7 +945,7 @@ header .nav-item:last-child {
 }
 .footer .footer-wrapper .footer-list2-box .f-ul-2 a {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #585858;
 }
 .footer .footer-wrapper .footer-contact-box {
@@ -955,12 +960,12 @@ header .nav-item:last-child {
 }
 .footer .footer-wrapper .footer-contact-box h3 {
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Anek Telugu", sans-serif;
   margin-top: 40px;
 }
 .footer .footer-wrapper .footer-contact-box h4 {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #585858;
 }
 .footer .footer-wrapper .f-img-2 {
