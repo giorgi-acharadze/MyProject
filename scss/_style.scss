@@ -55,7 +55,8 @@ header {
     .home-wrapper {
         @include d-flex(flex, space-between, center);
         .left-box {
-            width: 536px;
+            max-width: 536px;
+            width: $w100;
             .left-h-box {
                 width: 534px;
                 h1 {
@@ -135,7 +136,7 @@ header {
         }
         .right-p-box {
             max-width: 495px;
-            width: 100%;
+            width: $w100;
             h4 {
                 font-size: $fsize02;
                 font-family: "Poppins", sans-serif;

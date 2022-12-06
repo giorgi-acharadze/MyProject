@@ -227,7 +227,8 @@ header .nav-item:last-child {
           align-items: center;
 }
 #home .home-wrapper .left-box {
-  width: 536px;
+  max-width: 536px;
+  width: 100%;
 }
 #home .home-wrapper .left-box .left-h-box {
   width: 534px;
