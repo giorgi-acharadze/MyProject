@@ -4,9 +4,9 @@ body {
 }
 
 header {
-    width: 100%;
+    width: $w100;
     height: 53px;
-    background-color: white;
+    background-color: $colwhite;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -17,28 +17,28 @@ header {
         // padding: 30px 30px;
     }
     .logo {
-        font-size: 40px;
+        font-size: $fsize04;
         font-family: "Josefin Sans", sans-serif;
-        color: black;
+        color: $colblack;
     }
     .right-box {
         @include d-flex(flex, space-between, center);
     }
     .nav-item {
         display: inline-block;
-        margin-right: 20px;
+        margin-right: $fsize07;
         .my-a {
             font-family: "Poppins", sans-serif;
-            font-size: 18px;
-            color: black;
+            font-size: $fsize01;
+            color: $colblack;
             transition: color 0.3s;
             &:hover {
-                color: #7b7e81 !important;
+                color: $color01 !important;
             }
         }
 
         &:last-child {
-            margin-right: 40px;
+            margin-right: $fsize04;
         }
     }
 }
@@ -78,7 +78,7 @@ header {
             }
             input {
                 width: 341px;
-                padding-left: 30px;
+                padding-left: $fsize06;
                 height: 60px;
                 border: none;
                 border-radius: 5px;
@@ -88,10 +88,10 @@ header {
             button {
                 font-size: 15px;
                 font-family: "Poppins", sans-serif;
-                color: white;
-                background-color: #8cb560;
+                color: $colwhite;
+                background-color: $color02;
                 padding: 0px 37px;
-                margin-left: 20px;
+                margin-left: $fsize07;
                 height: 60px;
                 box-shadow: 3px 3px 6px #59882b;
                 border: none;
@@ -122,7 +122,7 @@ header {
         @include d-flex(flex, center, center);
         .left-img-box {
             max-width: 1105px;
-            width: 100%;
+            width: $w100;
             position: relative;
             .leaf2 {
                 position: absolute;
@@ -137,16 +137,16 @@ header {
             max-width: 495px;
             width: 100%;
             h4 {
-                font-size: 28px;
+                font-size: $fsize02;
                 font-family: "Poppins", sans-serif;
-                color: #febd00;
+                color: $color03;
                 margin-bottom: 16px;
             }
             h2 {
-                font-size: 40px;
+                font-size: $fsize04;
                 font-family: "Poppins", sans-serif;
                 color: black;
-                margin-bottom: 30px;
+                margin-bottom: $fsize06;
             }
             .p1 {
                 font-size: 17px;
@@ -157,11 +157,11 @@ header {
             .btn2 {
                 width: 220px;
                 height: 70px;
-                color: white;
+                color: $colwhite;
                 font-size: 15px;
                 box-shadow: 3px 3px 6px #59882b;
                 font-family: "Poppins", sans-serif;
-                background-color: #8cb560;
+                background-color: $color02;
                 border: none;
                 border-radius: 5px;
                 margin-top: 50px;
@@ -194,17 +194,17 @@ header {
         }
         .title-box {
             h4 {
-                font-size: 28px;
+                font-size: $fsize02;
                 font-family: "Poppins", sans-serif;
-                color: #febd00;
+                color: $color03;
                 margin-bottom: 16px;
                 text-align: center;
             }
             h2 {
-                font-size: 40px;
+                font-size: $fsize04;
                 font-family: "Poppins", sans-serif;
-                color: black;
-                margin-bottom: 30px;
+                color: $colblack;
+                margin-bottom: $fsize06;
             }
         }
         .card-box {
@@ -246,32 +246,32 @@ header {
     .menu-wrapper {
         .menu-title-box {
             h3 {
-                font-size: 28px;
+                font-size: $fsize02;
                 font-family: "Poppins", sans-serif;
-                color: #febd00;
+                color: $color03;
                 margin-bottom: 16px;
                 text-align: center;
             }
             h1 {
-                font-size: 40px;
+                font-size: $fsize04;
                 font-family: "Poppins", sans-serif;
-                color: black;
-                margin-bottom: 30px;
+                color: $colblack;
+                margin-bottom: $fsize06;
                 text-align: center;
             }
             .menu-list-box {
-                margin-bottom: 30px;
+                margin-bottom: $fsize06;
                 ul {
                     @include d-flex(flex, center, center);
                     li {
-                        font-size: 18px;
+                        font-size: $fsize01;
                         font-family: "Josefin Sans", sans-serif;
-                        margin-right: 30px;
+                        margin-right: $fsize06;
                         &:last-child {
                             margin: 0px;
                         }
                         a {
-                            color: black;
+                            color: $colblack;
                             &:hover {
                                 text-decoration: underline;
                             }
@@ -293,24 +293,24 @@ header {
     }
     .menu-text-box {
         max-width: 800px;
-        width: 100%;
+        width: $w100;
         margin: 0 auto;
         padding: 20px;
         border-radius: 8px;
         box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
         h2 {
-            font-size: 28px;
+            font-size: $fsize02;
             font-family: "Poppins", sans-serif;
-            color: #febd00;
-            margin-top: 40px;
-            margin-bottom: 16px;
+            color: $color03;
+            margin-top: $fsize04;
+            margin-bottom: $fsize03;
             text-align: center;
         }
         p {
-            font-size: 20px;
+            font-size: $fsize07;
             font-family: "Poppins", sans-serif;
             text-align: start;
-            line-height: 40px;
+            line-height: $fsize04;
         }
     }
 }
@@ -328,23 +328,23 @@ header {
             @include d-flex(flex, center, center);
             flex-direction: column;
             h4 {
-                font-size: 28px;
+                font-size: $fsize02;
                 font-family: "Poppins", sans-serif;
-                color: #febd00;
-                margin-bottom: 16px;
+                color: $color03;
+                margin-bottom: $fsize03;
                 text-align: center;
             }
             h1 {
-                font-size: 40px;
+                font-size: $fsize04;
                 font-family: "Poppins", sans-serif;
-                color: black;
-                margin-bottom: 30px;
+                color: $colblack;
+                margin-bottom: $fsize06;
                 text-align: center;
             }
         }
         .testimonial-user-box {
             width: 360px;
-            background-color: white;
+            background-color: $colwhite;
             border: 1px solid #f0f2f5;
             border-radius: 6px;
             transition: all 0.5s ease;
@@ -383,7 +383,7 @@ header {
         }
         .user-box-wrapper2 {
             @include d-flex(flex, space-evenly, center);
-            margin-top: 30px;
+            margin-top: $fsize06;
         }
         .img4 {
             margin-left: 900px;
@@ -404,7 +404,7 @@ header {
             @include d-flex(flex, center, center);
             max-width: 1170px;
             height: 550px;
-            width: 100%;
+            width: $w100;
             margin: 0 auto;
             // box-shadow: 1px 2px 6px #636465;
             border: none;
@@ -415,32 +415,32 @@ header {
                 flex-direction: column;
                 padding: 60px;
                 h1 {
-                    font-size: 40px;
+                    font-size: $fsize04;
                     font-family: "Poppins", sans-serif;
-                    margin-bottom: 30px;
+                    margin-bottom: $fsize06;
                 }
                 .mail {
                     @include d-flex(flex, start, center);
                     margin-top: 10px;
-                    margin-bottom: 20px;
+                    margin-bottom: $fsize07;
                     cursor: pointer;
                     .fa-regular {
                         margin-right: 8px;
                     }
                     a {
-                        color: black;
+                        color: $colblack;
                         font-family: "Josefin Sans", sans-serif;
                     }
                 }
                 .phone {
                     @include d-flex(flex, start, center);
-                    margin-bottom: 20px;
+                    margin-bottom: $fsize07;
                     cursor: pointer;
                     .fa-solid {
                         margin-right: 8px;
                     }
                     h4 {
-                        color: black;
+                        color: $colblack;
                         font-family: "Josefin Sans", sans-serif;
                     }
                 }
@@ -451,7 +451,7 @@ header {
                         margin-right: 8px;
                     }
                     a {
-                        color: black;
+                        color: $colblack;
                         font-family: "Josefin Sans", sans-serif;
                     }
                 }
@@ -459,16 +459,16 @@ header {
             .right-box {
                 background: whitesmoke;
                 border-radius: 4px;
-                padding: 20px;
+                padding: $fsize07;
                 transition: all 0.5s ease-in;
                 &:hover {
                     box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
                 }
                 .r-title-box {
                     h2 {
-                        font-size: 30px;
+                        font-size: $fsize06;
                         font-family: "Poppins", sans-serif;
-                        margin-bottom: 30px;
+                        margin-bottom: $fsize06;
                     }
                 }
                 form {
@@ -491,16 +491,16 @@ header {
                         font-size: 15px;
                         padding: 10px;
                         border-radius: 4px;
-                        margin-top: 20px;
+                        margin-top: $fsize07;
                     }
                 }
                 button {
                     font-size: 15px;
                     font-family: "Poppins", sans-serif;
-                    color: white;
-                    background-color: #8cb560;
+                    color: $colwhite;
+                    background-color: $color02;
                     padding: 0px 37px;
-                    margin-top: 20px;
+                    margin-top: $fsize07;
                     height: 30px;
                     box-shadow: 3px 3px 6px #59882b;
                     border: none;
@@ -520,11 +520,11 @@ header {
 .footer {
     @include d-flex(flex, space-between, center);
     height: 400px;
-    width: 100%;
+    width: $w100;
     background-color: #f8fbf5;
     .footer-wrapper {
         @include d-flex(flex, space-between, center);
-        width: 100%;
+        width: $w100;
 
         .f-img-1 {
             width: 170px;
@@ -532,43 +532,43 @@ header {
         .social-box {
             width: 375px;
             img {
-                padding-bottom: 25px;
+                padding-bottom: $fsize05;
             }
             p {
-                font-size: 18px;
+                font-size: $fsize01;
                 font-family: "Poppins", sans-serif;
                 line-height: 30px;
-                margin-bottom: 30px;
-                color: #585858;
+                margin-bottom: $fsize06;
+                color: $color04;
             }
             .soc-icon-box {
                 @include d-flex(flex, flex-start, center);
-                gap: 20px;
+                gap: $fsize07;
                 .facebook-icon {
-                    background-color: #8cb560;
+                    background-color: $color02;
                     padding: 10px;
                     border-radius: 5px;
                     .fa-facebook {
-                        font-size: 20px;
-                        color: white;
+                        font-size: $fsize07;
+                        color: $colwhite;
                     }
                 }
                 .twitter-icon {
-                    background-color: #8cb560;
+                    background-color: $color02;
                     padding: 10px;
                     border-radius: 5px;
                     .fa-twitter {
-                        font-size: 20px;
-                        color: white;
+                        font-size: $fsize07;
+                        color: $colwhite;
                     }
                 }
                 .instagram-icon {
-                    background-color: #8cb560;
+                    background-color: $color02;
                     padding: 10px;
                     border-radius: 5px;
                     .fa-instagram {
-                        font-size: 20px;
-                        color: white;
+                        font-size: $fsize07;
+                        color: $colwhite;
                     }
                 }
             }
@@ -576,56 +576,56 @@ header {
         .footer-list1-box {
             display: flex;
             flex-direction: column;
-            gap: 25px;
+            gap: $fsize05;
             h3 {
-                font-size: 18px;
+                font-size: $fsize01;
                 font-family: "Poppins", sans-serif;
-                margin-top: 40px;
+                margin-top: $fsize04;
             }
             .f-ul-1 {
                 display: flex;
                 flex-direction: column;
-                gap: 25px;
+                gap: $fsize05;
                 a {
-                    font-size: 16px;
+                    font-size: $fsize03;
                     font-family: "Poppins", sans-serif;
-                    color: #585858;
+                    color: $color04;
                 }
             }
         }
         .footer-list2-box {
             display: flex;
             flex-direction: column;
-            gap: 25px;
+            gap: $fsize05;
             h3 {
-                font-size: 18px;
+                font-size: $fsize01;
                 font-family: "Poppins", sans-serif;
-                margin-top: 40px;
+                margin-top: $fsize04;
             }
             .f-ul-2 {
                 display: flex;
                 flex-direction: column;
-                gap: 25px;
+                gap: $fsize05;
                 a {
-                    font-size: 16px;
+                    font-size: $fsize03;
                     font-family: "Poppins", sans-serif;
-                    color: #585858;
+                    color: $color04;
                 }
             }
         }
         .footer-contact-box {
             display: flex;
             flex-direction: column;
-            gap: 25px;
+            gap: $fsize05;
             h3 {
-                font-size: 18px;
+                font-size: $fsize01;
                 font-family: "Poppins", sans-serif;
-                margin-top: 40px;
+                margin-top: $fsize04;
             }
             h4 {
-                font-size: 16px;
+                font-size: $fsize03;
                 font-family: "Poppins", sans-serif;
-                color: #585858;
+                color: $color04;
             }
         }
         .f-img-2 {
