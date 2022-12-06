@@ -496,6 +496,9 @@ header .nav-item:last-child {
 #menu .menu-wrapper .menu-title-box .menu-list-box ul li a:hover {
   color: #585858;
 }
+#menu .myheght {
+  height: 190px;
+}
 #menu .mywidth {
   width: 200px;
 }
