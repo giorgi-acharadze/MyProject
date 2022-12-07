@@ -286,11 +286,11 @@ header {
         }
     }
     .myheight {
-        height: 190px !important;
+        height: 210px;
     }
 
     .mywidth {
-        width: 200px;
+        width: 282px;
     }
     .mywidth2 {
         width: 500px;
@@ -322,6 +322,23 @@ header {
         }
     }
 }
+// card-styles !....>
+.card-group {
+    .card {
+        img {
+            height: 210px;
+        }
+        .card-body {
+            p {
+                font-family: "Anek Telugu", sans-serif;
+            }
+            h5 {
+                font-family: "Montserrat", sans-serif;
+            }
+        }
+    }
+}
+// card-styles.....>
 // menu-menu-section ends !....>
 // testimonial-section starts! >>>>>
 #testimonials {

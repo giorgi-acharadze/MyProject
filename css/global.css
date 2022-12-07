@@ -497,10 +497,10 @@ header .nav-item:last-child {
   color: #585858;
 }
 #menu .myheight {
-  height: 190px !important;
+  height: 210px;
 }
 #menu .mywidth {
-  width: 200px;
+  width: 282px;
 }
 #menu .mywidth2 {
   width: 500px;
@@ -531,6 +531,16 @@ header .nav-item:last-child {
   text-align: start;
   line-height: 40px;
   color: #7b7e81;
+}
+
+.card-group .card img {
+  height: 210px;
+}
+.card-group .card .card-body p {
+  font-family: "Anek Telugu", sans-serif;
+}
+.card-group .card .card-body h5 {
+  font-family: "Montserrat", sans-serif;
 }
 
 #testimonials {
