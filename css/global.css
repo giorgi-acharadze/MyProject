@@ -195,7 +195,7 @@ header .nav-item {
 }
 header .nav-item .my-a {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: black;
   font-weight: 500;
   -webkit-transition: color 0.3s;
@@ -278,6 +278,11 @@ header .nav-item:last-child {
 #home .home-wrapper .left-box button:hover {
   opacity: 0.8;
 }
+@media (max-width: 1171px) {
+  #home .home-wrapper .left-box {
+    margin-left: 40px;
+  }
+}
 #home .home-wrapper .right-img-box {
   margin-top: 45px;
   margin-left: 70px;
@@ -285,9 +290,24 @@ header .nav-item:last-child {
 #home .home-wrapper .right-img-box .pizza {
   width: 600px;
 }
+@media (max-width: 1255px) {
+  #home .home-wrapper .right-img-box .pizza {
+    width: 550px;
+  }
+}
+@media (max-width: 1171px) {
+  #home .home-wrapper .right-img-box .pizza {
+    width: 500px;
+  }
+}
+@media (max-width: 1110px) {
+  #home .home-wrapper .right-img-box .pizza {
+    width: 480px;
+  }
+}
 
 #about-us {
-  margin-top: 140px;
+  margin-top: 100px;
 }
 #about-us .about-wrapper {
   height: 600px;
@@ -311,8 +331,37 @@ header .nav-item:last-child {
   top: 30px;
   left: 30px;
 }
+@media (max-width: 1040px) {
+  #about-us .about-wrapper .left-img-box .leaf2 {
+    top: 30px;
+    left: 180px;
+  }
+}
 #about-us .about-wrapper .left-img-box .chief-img {
   width: 560px;
+}
+@media (max-width: 1240px) {
+  #about-us .about-wrapper .left-img-box .chief-img {
+    width: 500px;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 1130px) {
+  #about-us .about-wrapper .left-img-box .chief-img {
+    width: 450px;
+  }
+}
+@media (max-width: 1080px) {
+  #about-us .about-wrapper .left-img-box .chief-img {
+    width: 420px;
+  }
+}
+@media (max-width: 1040px) {
+  #about-us .about-wrapper .left-img-box .chief-img {
+    margin-left: 0px;
+    margin-bottom: 20px;
+    width: 500px;
+  }
 }
 #about-us .about-wrapper .right-p-box {
   max-width: 495px;
@@ -323,6 +372,11 @@ header .nav-item:last-child {
   font-family: "Montserrat", sans-serif;
   color: #febd00;
   margin-bottom: 16px;
+}
+@media (max-width: 1240px) {
+  #about-us .about-wrapper .right-p-box h4 {
+    font-size: 25px;
+  }
 }
 #about-us .about-wrapper .right-p-box h2 {
   font-size: 40px;
@@ -335,6 +389,11 @@ header .nav-item:last-child {
   font-family: "Montserrat", sans-serif;
   color: #636465;
   line-height: 30px;
+}
+@media (max-width: 1240px) {
+  #about-us .about-wrapper .right-p-box .p1 {
+    font-size: 15px;
+  }
 }
 #about-us .about-wrapper .right-p-box .btn2 {
   width: 220px;
@@ -355,9 +414,54 @@ header .nav-item:last-child {
 #about-us .about-wrapper .right-p-box .btn2:hover {
   opacity: 0.8;
 }
+@media (max-width: 1130px) {
+  #about-us .about-wrapper .right-p-box .btn2 {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1080px) {
+  #about-us .about-wrapper .right-p-box .btn2 {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1040px) {
+  #about-us .about-wrapper .right-p-box .btn2 {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1240px) {
+  #about-us .about-wrapper .right-p-box {
+    margin-right: 40px;
+  }
+}
+@media (max-width: 1230px) {
+  #about-us .about-wrapper .right-p-box {
+    margin-right: 50px;
+  }
+}
+@media (max-width: 1240px) {
+  #about-us .about-wrapper {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1040px) {
+  #about-us .about-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
 
 #service {
-  margin-top: 140px;
+  margin-top: 100px;
 }
 #service .img5 {
   margin-left: 950px;
@@ -384,9 +488,9 @@ header .nav-item:last-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -418,40 +522,47 @@ header .nav-item:last-child {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 370px;
-  height: 370px;
-  border-radius: 10px;
+  width: 340px;
+  height: 240px;
+  padding: 30px 20px;
   background-color: #f8fbf5;
   -webkit-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
   cursor: pointer;
+  background-color: #f8fbf5;
+  border-bottom: 5px solid transparent;
 }
 #service .service-wrapper .card-box:hover {
-  -webkit-box-shadow: 8px 12px 23px 7px rgba(225, 219, 219, 0.77);
-          box-shadow: 8px 12px 23px 7px rgba(225, 219, 219, 0.77);
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+  background-color: white;
+  border-bottom: 5px solid #8cb560;
 }
 #service .service-wrapper .card-box .menu-icon {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin-bottom: 20px;
 }
 #service .service-wrapper .card-box .myheight {
   height: 60px;
 }
 #service .service-wrapper .card-box h4 {
-  font-size: 24px;
-  font-family: "Montserrat", sans-serif;
-  margin-bottom: 25px;
-}
-#service .service-wrapper .card-box li {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
-  text-align: start;
-  line-height: 25px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+#service .service-wrapper .card-box p {
+  font-size: 11px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+  list-style: none;
+  line-height: 20px;
 }
 
 #menu {
-  margin-top: 140px;
+  margin-top: 100px;
 }
 #menu .menu-wrapper .menu-title-box h3 {
   font-size: 28px;
@@ -518,8 +629,8 @@ header .nav-item:last-child {
   margin: 0 auto;
   padding: 20px;
   border-radius: 8px;
-  -webkit-box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
-          box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
+  -webkit-box-shadow: 3px 3px 6px #707070;
+          box-shadow: 3px 3px 6px #707070;
 }
 #menu .menu-text-box h2 {
   font-size: 28px;
@@ -530,18 +641,32 @@ header .nav-item:last-child {
   text-align: center;
 }
 #menu .menu-text-box p {
-  font-size: 20px;
+  font-size: 17px;
   font-family: "Montserrat", sans-serif;
   text-align: start;
-  line-height: 40px;
+  line-height: 30px;
   color: #7b7e81;
+  padding: 30px;
+}
+#menu .menu-text-box .menu-text1 {
+  padding-bottom: 16px;
 }
 
+.card-group .card .img-wrapper {
+  overflow: hidden;
+}
 .card-group .card img {
   height: 210px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.card-group .card img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .card-group .card .card-body p {
   font-family: "Anek Telugu", sans-serif;
+  cursor: pointer;
 }
 .card-group .card .card-body h5 {
   font-family: "Montserrat", sans-serif;
@@ -554,7 +679,7 @@ header .nav-item:last-child {
 }
 
 #testimonials {
-  margin-top: 140px;
+  margin-top: 100px;
 }
 #testimonials .img4 {
   margin-left: 950px;
@@ -593,21 +718,21 @@ header .nav-item:last-child {
 }
 #testimonials .testimonials-wrapper .testimonial-user-box {
   width: 360px;
+  height: 228px;
   background-color: white;
   border: 1px solid #f0f2f5;
+  border: none;
   border-radius: 6px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-}
-#testimonials .testimonials-wrapper .testimonial-user-box:hover {
-  -webkit-box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
-          box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
+  -webkit-box-shadow: 3px 3px 6px #707070;
+          box-shadow: 3px 3px 6px #707070;
 }
 #testimonials .testimonials-wrapper .testimonial-user-box .user-p-box {
   font-size: 13px;
   font-family: "Montserrat", sans-serif;
   line-height: 16px;
-  padding: 8px;
+  padding: 20px 20px;
 }
 #testimonials .testimonials-wrapper .testimonial-user-box .user-img-box {
   display: -webkit-box;
@@ -623,7 +748,12 @@ header .nav-item:last-child {
   border-radius: 8px;
 }
 #testimonials .testimonials-wrapper .testimonial-user-box .user-img-box img {
-  padding: 8px;
+  width: 75px;
+  height: 75px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 10px;
+  margin-left: 12px;
   cursor: pointer;
 }
 #testimonials .testimonials-wrapper .testimonial-user-box .user-img-box h4 {
@@ -638,7 +768,18 @@ header .nav-item:last-child {
   font-family: "Anek Telugu", sans-serif;
   cursor: pointer;
 }
-#testimonials .testimonials-wrapper .user-box-wrapper1 {
+#testimonials .testimonials-wrapper .testimonial-user-box .edit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#testimonials .user-box-wrapper1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -649,19 +790,20 @@ header .nav-item:last-child {
       -ms-flex-align: center;
           align-items: center;
 }
-#testimonials .testimonials-wrapper .user-box-wrapper2 {
+#testimonials .user-box-wrapper2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 30px;
+  gap: 40px;
+  margin-top: 40px;
 }
-#testimonials .testimonials-wrapper .img4 {
+#testimonials .img4 {
   margin-left: 900px;
 }
 
@@ -690,8 +832,8 @@ header .nav-item:last-child {
   margin: 0 auto;
   border: none;
   border-radius: 6px;
-  -webkit-box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
-          box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
+  -webkit-box-shadow: 3px 3px 6px #707070;
+          box-shadow: 3px 3px 6px #707070;
 }
 #contact .contact-wrapper .form-box .left-box {
   display: -webkit-box;
@@ -780,10 +922,8 @@ header .nav-item:last-child {
   padding: 20px;
   -webkit-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-}
-#contact .contact-wrapper .form-box .right-box:hover {
-  -webkit-box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
-          box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
+  -webkit-box-shadow: 3px 3px 6px #707070;
+          box-shadow: 3px 3px 6px #707070;
 }
 #contact .contact-wrapper .form-box .right-box .r-title-box h2 {
   font-size: 30px;

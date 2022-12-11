@@ -27,7 +27,7 @@ header {
         margin-right: $fsize07;
         .my-a {
             font-family: "Montserrat", sans-serif;
-            font-size: $fsize01;
+            font-size: $fsize03;
             color: $colblack;
             font-weight: 500;
             transition: color 0.3s;
@@ -102,12 +102,24 @@ header {
                     opacity: 0.8;
                 }
             }
+            @media (max-width: 1171px) {
+                margin-left: 40px;
+            }
         }
         .right-img-box {
             margin-top: 45px;
             margin-left: 70px;
             .pizza {
                 width: 600px;
+                @media (max-width: 1255px) {
+                    width: 550px;
+                }
+                @media (max-width: 1171px) {
+                    width: 500px;
+                }
+                @media (max-width: 1110px) {
+                    width: 480px;
+                }
             }
         }
     }
@@ -116,7 +128,7 @@ header {
 // about-us section starts!////
 #about-us {
     @extend %mycontainer;
-    margin-top: 140px;
+    margin-top: 100px;
     .about-wrapper {
         height: 600px;
         @include d-flex(flex, center, center);
@@ -128,9 +140,28 @@ header {
                 position: absolute;
                 top: 30px;
                 left: 30px;
+                @media (max-width: 1040px) {
+                    top: 30px;
+                    left: 180px;
+                }
             }
             .chief-img {
                 width: 560px;
+                @media (max-width: 1240px) {
+                    width: 500px;
+                    margin-left: 40px;
+                }
+                @media (max-width: 1130px) {
+                    width: 450px;
+                }
+                @media (max-width: 1080px) {
+                    width: 420px;
+                }
+                @media (max-width: 1040px) {
+                    margin-left: 0px;
+                    margin-bottom: 20px;
+                    width: 500px;
+                }
             }
         }
         .right-p-box {
@@ -141,6 +172,9 @@ header {
                 font-family: "Montserrat", sans-serif;
                 color: $color03;
                 margin-bottom: 16px;
+                @media (max-width: 1240px) {
+                    font-size: $fsize05;
+                }
             }
             h2 {
                 font-size: $fsize04;
@@ -153,6 +187,9 @@ header {
                 font-family: "Montserrat", sans-serif;
                 color: #636465;
                 line-height: 30px;
+                @media (max-width: 1240px) {
+                    font-size: 15px;
+                }
             }
             .btn2 {
                 width: 220px;
@@ -170,7 +207,33 @@ header {
                 &:hover {
                     opacity: 0.8;
                 }
+                @media (max-width: 1130px) {
+                    width: 200px;
+                    height: 50px;
+                    margin-top: 20px;
+                }
+                @media (max-width: 1080px) {
+                    margin-top: 10px;
+                }
+                @media (max-width: 1040px) {
+                    margin-top: 10px;
+                }
             }
+            @media (max-width: 1240px) {
+                margin-right: 40px;
+            }
+            @media (max-width: 1230px) {
+                margin-right: 50px;
+            }
+        }
+        @media (max-width: 1240px) {
+            margin: 0 auto;
+        }
+        @media (max-width: 1040px) {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 0 auto;
         }
     }
 }
@@ -178,7 +241,7 @@ header {
 // setvice-section starts!.....>
 #service {
     @extend %mycontainer;
-    margin-top: 140px;
+    margin-top: 100px;
     .img5 {
         margin-left: 950px;
     }
@@ -190,7 +253,7 @@ header {
         max-width: 1170px;
         width: 100%;
         .card-box-wrapper {
-            @include d-flex(flex, space-between, center);
+            @include d-flex(flex, space-evenly, center);
         }
         .title-box {
             h4 {
@@ -210,19 +273,24 @@ header {
         .card-box {
             @include d-flex(flex, center, center);
             flex-direction: column;
-            width: 370px;
-            height: 370px;
-            border-radius: 10px;
+            width: 340px;
+            height: 240px;
+            padding: 30px 20px;
             background-color: #f8fbf5;
             transition: all 0.5s ease-in;
             cursor: pointer;
+            // border-radius: 35px;
+            background-color: #f8fbf5;
+            // box-shadow: 12px 12px 24px #e8e8e8, -12px -12px 24px #ffffff;
+            border-bottom: 5px solid transparent;
             &:hover {
-                // box-shadow: 3px 3px 6px #59882b;
-                box-shadow: 8px 12px 23px 7px rgba(225, 219, 219, 0.77);
+                box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+                background-color: white;
+                border-bottom: 5px solid #8cb560;
             }
             .menu-icon {
-                width: 60px;
-                height: 60px;
+                width: 50px;
+                height: 50px;
                 margin-bottom: 20px;
             }
             .myheight {
@@ -230,15 +298,18 @@ header {
             }
 
             h4 {
-                font-size: 24px;
-                font-family: "Montserrat", sans-serif;
-                margin-bottom: 25px;
-            }
-            li {
                 font-size: 16px;
                 font-family: "Montserrat", sans-serif;
-                text-align: start;
-                line-height: 25px;
+                margin-bottom: 25px;
+                font-weight: 600;
+            }
+            p {
+                font-size: 11px;
+                font-family: "Montserrat", sans-serif;
+                text-align: center;
+                margin-bottom: 10px;
+                list-style: none;
+                line-height: 20px;
             }
         }
     }
@@ -247,7 +318,7 @@ header {
 // menu-section starts! ! ....>
 #menu {
     @extend %mycontainer;
-    margin-top: 140px;
+    margin-top: 100px;
     .menu-wrapper {
         .menu-title-box {
             h3 {
@@ -309,7 +380,8 @@ header {
         margin: 0 auto;
         padding: 20px;
         border-radius: 8px;
-        box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
+        // box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
+        box-shadow: 3px 3px 6px #707070;
         h2 {
             font-size: $fsize02;
             font-family: "Anek Telugu", sans-serif;
@@ -319,23 +391,35 @@ header {
             text-align: center;
         }
         p {
-            font-size: $fsize07;
+            font-size: 17px;
             font-family: "Montserrat", sans-serif;
             text-align: start;
-            line-height: $fsize04;
+            line-height: 30px;
             color: $color01;
+            padding: 30px;
+        }
+        .menu-text1 {
+            padding-bottom: 16px;
         }
     }
 }
 // card-styles !....>
 .card-group {
     .card {
+        .img-wrapper {
+            overflow: hidden;
+        }
         img {
             height: 210px;
+            transition: 0.5s ease-in-out;
+            &:hover {
+                transform: scale(1.1);
+            }
         }
         .card-body {
             p {
                 font-family: "Anek Telugu", sans-serif;
+                cursor: pointer;
             }
             h5 {
                 font-family: "Montserrat", sans-serif;
@@ -353,7 +437,7 @@ header {
 // menu-menu-section ends !....>
 // testimonial-section starts! >>>>>
 #testimonials {
-    margin-top: 140px;
+    margin-top: 100px;
     @extend %mycontainer;
     .img4 {
         margin-left: 950px;
@@ -380,25 +464,29 @@ header {
         }
         .testimonial-user-box {
             width: 360px;
+            height: 228px;
             background-color: $colwhite;
             border: 1px solid #f0f2f5;
+            border: none;
             border-radius: 6px;
             transition: all 0.5s ease;
-            &:hover {
-                box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
-            }
+            box-shadow: 3px 3px 6px #707070;
             .user-p-box {
                 font-size: 13px;
                 font-family: "Montserrat", sans-serif;
                 line-height: 16px;
-                padding: 8px;
+                padding: 20px 20px;
             }
             .user-img-box {
                 @include d-flex(flex, flex-start, center);
                 background-color: #f0f2f5;
                 border-radius: 8px;
                 img {
-                    padding: 8px;
+                    width: 75px;
+                    height: 75px;
+                    object-fit: cover;
+                    padding: 10px;
+                    margin-left: 12px;
                     cursor: pointer;
                 }
                 h4 {
@@ -414,19 +502,24 @@ header {
                     cursor: pointer;
                 }
             }
-        }
-        .user-box-wrapper1 {
-            @include d-flex(flex, space-between, center);
-        }
-        .user-box-wrapper2 {
-            @include d-flex(flex, space-evenly, center);
-            margin-top: $fsize06;
-        }
-        .img4 {
-            margin-left: 900px;
+            .edit {
+                @include d-flex(flex, flex-start, center);
+            }
         }
     }
+    .user-box-wrapper1 {
+        @include d-flex(flex, space-between, center);
+    }
+    .user-box-wrapper2 {
+        @include d-flex(flex, center, center);
+        gap: 40px;
+        margin-top: 40px;
+    }
+    .img4 {
+        margin-left: 900px;
+    }
 }
+
 // testimonial-section ends!!...>
 // contact-section starts!....>
 #contact {
@@ -446,7 +539,7 @@ header {
             // box-shadow: 1px 2px 6px #636465;
             border: none;
             border-radius: 6px;
-            box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
+            box-shadow: 3px 3px 6px #707070;
             .left-box {
                 @include d-flex(flex, center, flex-start);
                 flex-direction: column;
@@ -498,9 +591,7 @@ header {
                 border-radius: 4px;
                 padding: $fsize07;
                 transition: all 0.5s ease-in;
-                &:hover {
-                    box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
-                }
+                box-shadow: 3px 3px 6px #707070;
                 .r-title-box {
                     h2 {
                         font-size: $fsize06;
