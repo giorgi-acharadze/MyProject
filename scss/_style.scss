@@ -211,20 +211,24 @@ header {
             @include d-flex(flex, center, center);
             flex-direction: column;
             width: 370px;
-            height: 347px;
+            height: 370px;
             border-radius: 10px;
             background-color: #f8fbf5;
-            transition: all 0.5s ease-out;
+            transition: all 0.5s ease-in;
             cursor: pointer;
             &:hover {
                 // box-shadow: 3px 3px 6px #59882b;
-                box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
+                box-shadow: 8px 12px 23px 7px rgba(225, 219, 219, 0.77);
             }
             .menu-icon {
-                width: 70px;
-                height: 70px;
-                margin-bottom: 23px;
+                width: 60px;
+                height: 60px;
+                margin-bottom: 20px;
             }
+            .myheight {
+                height: 60px;
+            }
+
             h4 {
                 font-size: 24px;
                 font-family: "Montserrat", sans-serif;
@@ -234,6 +238,7 @@ header {
                 font-size: 16px;
                 font-family: "Montserrat", sans-serif;
                 text-align: start;
+                line-height: 25px;
             }
         }
     }
@@ -334,6 +339,12 @@ header {
             }
             h5 {
                 font-family: "Montserrat", sans-serif;
+            }
+            .card-title {
+                margin-bottom: 20px;
+            }
+            .card-text {
+                line-height: 20px;
             }
         }
     }

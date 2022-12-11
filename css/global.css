@@ -419,21 +419,24 @@ header .nav-item:last-child {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 370px;
-  height: 347px;
+  height: 370px;
   border-radius: 10px;
   background-color: #f8fbf5;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
   cursor: pointer;
 }
 #service .service-wrapper .card-box:hover {
-  -webkit-box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
-          box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
+  -webkit-box-shadow: 8px 12px 23px 7px rgba(225, 219, 219, 0.77);
+          box-shadow: 8px 12px 23px 7px rgba(225, 219, 219, 0.77);
 }
 #service .service-wrapper .card-box .menu-icon {
-  width: 70px;
-  height: 70px;
-  margin-bottom: 23px;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+#service .service-wrapper .card-box .myheight {
+  height: 60px;
 }
 #service .service-wrapper .card-box h4 {
   font-size: 24px;
@@ -444,6 +447,7 @@ header .nav-item:last-child {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   text-align: start;
+  line-height: 25px;
 }
 
 #menu {
@@ -541,6 +545,12 @@ header .nav-item:last-child {
 }
 .card-group .card .card-body h5 {
   font-family: "Montserrat", sans-serif;
+}
+.card-group .card .card-body .card-title {
+  margin-bottom: 20px;
+}
+.card-group .card .card-body .card-text {
+  line-height: 20px;
 }
 
 #testimonials {
