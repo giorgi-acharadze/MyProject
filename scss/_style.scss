@@ -329,7 +329,7 @@ header {
         img {
             position: absolute;
             top: -50px;
-            left: -70px;
+            left: -60px;
         }
     }
     .menu-wrapper {
@@ -695,7 +695,6 @@ header {
             .geo-logo {
                 width: 70px;
                 margin-left: 20px;
-                // height: 20px;
             }
             p {
                 font-size: $fsize01;
@@ -790,10 +789,6 @@ header {
                 font-family: "Montserrat", sans-serif;
                 color: $color04;
             }
-        }
-
-        .geo-logo {
-            width: 80px;
         }
     }
 }

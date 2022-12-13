@@ -575,7 +575,7 @@ header .nav-item:last-child {
 #menu .design-element3 img {
   position: absolute;
   top: -50px;
-  left: -70px;
+  left: -60px;
 }
 #menu .menu-wrapper .menu-title-box h3 {
   font-size: 28px;
@@ -1165,7 +1165,4 @@ header .nav-item:last-child {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   color: #585858;
-}
-.footer .footer-wrapper .geo-logo {
-  width: 80px;
 }/*# sourceMappingURL=global.css.map */
