@@ -575,7 +575,7 @@ header .nav-item:last-child {
 #menu .design-element3 img {
   position: absolute;
   top: -50px;
-  left: -120px;
+  left: -70px;
 }
 #menu .menu-wrapper .menu-title-box h3 {
   font-size: 28px;
@@ -821,9 +821,6 @@ header .nav-item:last-child {
   gap: 40px;
   margin-top: 40px;
 }
-#testimonials .img4 {
-  margin-left: 900px;
-}
 
 #contact {
   margin-top: 100px;
@@ -834,8 +831,8 @@ header .nav-item:last-child {
 }
 #contact .design-element2 img {
   position: absolute;
-  top: -100px;
-  left: -100px;
+  top: -120px;
+  left: -60px;
 }
 #contact .design-element6 {
   position: relative;
