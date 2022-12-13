@@ -64,6 +64,12 @@ header {
                     font-family: "Anek Telugu", sans-serif;
                     text-align: start;
                     margin-bottom: 40px;
+                    @media (max-width: 1200px) {
+                        font-size: 55px;
+                    }
+                    @media (max-width: 1165px) {
+                        font-size: 50px;
+                    }
                 }
             }
             .p-box {
@@ -84,6 +90,9 @@ header {
                 border-radius: 5px;
                 box-shadow: 3px 3px 6px #707070;
                 margin-top: 10px;
+                @media (max-width: 1200px) {
+                    width: 331px;
+                }
             }
             button {
                 font-size: 15px;
@@ -101,8 +110,20 @@ header {
                 &:hover {
                     opacity: 0.8;
                 }
+                @media (max-width: 1200px) {
+                    padding: 0px 27px;
+                }
+            }
+            @media (max-width: 1240px) {
+                margin-left: 40px;
+            }
+            @media (max-width: 1200px) {
+                margin-left: 40px;
             }
             @media (max-width: 1171px) {
+                margin-left: 40px;
+            }
+            @media (max-width: 1165px) {
                 margin-left: 40px;
             }
         }
@@ -114,11 +135,21 @@ header {
                 @media (max-width: 1255px) {
                     width: 550px;
                 }
-                @media (max-width: 1171px) {
+                @media (max-width: 1240px) {
+                    width: 530px;
+                }
+                @media (max-width: 1200px) {
                     width: 500px;
+                    margin-right: 20px;
+                }
+                @media (max-width: 1171px) {
+                    width: 480px;
+                }
+                @media (max-width: 1165px) {
+                    width: 440px;
                 }
                 @media (max-width: 1110px) {
-                    width: 480px;
+                    width: 430px;
                 }
             }
         }
@@ -238,7 +269,7 @@ header {
     }
 }
 // about-section ends!....>
-// setvice-section starts!.....>
+// service-section starts!.....>
 #service {
     @extend %mycontainer;
     margin-top: 100px;
@@ -259,6 +290,10 @@ header {
         width: 100%;
         .card-box-wrapper {
             @include d-flex(flex, space-evenly, center);
+            @media (max-width: 1230px) {
+                flex-wrap: wrap;
+                gap: 30px;
+            }
         }
         .title-box {
             h4 {
@@ -330,6 +365,12 @@ header {
             position: absolute;
             top: -50px;
             left: -60px;
+            @media (max-width: 1246px) {
+                left: -30px;
+            }
+            @media (max-width: 1226px) {
+                left: -10px;
+            }
         }
     }
     .menu-wrapper {
@@ -442,6 +483,12 @@ header {
             }
             .card-text {
                 line-height: 20px;
+                padding-bottom: 10px;
+                position: relative;
+                .text-muted {
+                    position: absolute;
+                    top: 0px;
+                }
             }
         }
     }
@@ -458,6 +505,12 @@ header {
             position: absolute;
             top: -60px;
             right: -70px;
+            @media (max-width: 1300px) {
+                right: -30px;
+            }
+            @media (max-width: 1246px) {
+                right: -10px;
+            }
         }
     }
     .testimonials-wrapper {
@@ -523,10 +576,18 @@ header {
             .edit {
                 @include d-flex(flex, flex-start, center);
             }
+            @media (max-width: 1245px) {
+            }
         }
     }
     .user-box-wrapper1 {
         @include d-flex(flex, space-between, center);
+        @media (max-width: 1245px) {
+            @include d-flex(flex, space-around, center);
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 20px;
+        }
     }
     .user-box-wrapper2 {
         @include d-flex(flex, center, center);
@@ -546,7 +607,10 @@ header {
         img {
             position: absolute;
             top: -120px;
-            left: -60px;
+            left: -20px;
+            @media (max-width: 1226px) {
+                left: 20px;
+            }
         }
     }
     .design-element6 {
@@ -555,12 +619,18 @@ header {
             position: absolute;
             top: 15px;
             right: -80px;
+            @media (max-width: 1300px) {
+                right: -20px;
+            }
+            @media (max-width: 1226px) {
+                right: 20px;
+            }
         }
     }
     .contact-wrapper {
         margin-top: 70px;
         .form-box {
-            @include d-flex(flex, center, center);
+            @include d-flex(flex, space-evenly, center);
             max-width: 1170px;
             height: 550px;
             width: $w100;
@@ -669,6 +739,13 @@ header {
                     }
                 }
             }
+            @media (max-width: 1245px) {
+                width: 1000px;
+                @include d-flex(flex, space-around, center);
+            }
+        }
+        @media (max-width: 1245px) {
+            margin-top: 380px;
         }
     }
 }
