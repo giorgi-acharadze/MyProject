@@ -645,6 +645,11 @@ header .nav-item:last-child {
     left: -10px;
   }
 }
+@media (max-width: 1121px) {
+  #menu .design-element3 img {
+    left: 10px;
+  }
+}
 #menu .menu-wrapper .menu-title-box h3 {
   font-size: 28px;
   font-family: "Montserrat", sans-serif;
@@ -784,6 +789,11 @@ header .nav-item:last-child {
 @media (max-width: 1246px) {
   #testimonials .design-element4 img {
     right: -10px;
+  }
+}
+@media (max-width: 1206px) {
+  #testimonials .design-element4 img {
+    right: 60px;
   }
 }
 #testimonials .testimonials-wrapper {
@@ -937,6 +947,11 @@ header .nav-item:last-child {
 @media (max-width: 1226px) {
   #contact .design-element2 img {
     left: 20px;
+  }
+}
+@media (max-width: 1181px) {
+  #contact .design-element2 img {
+    left: 30px;
   }
 }
 #contact .design-element6 {
