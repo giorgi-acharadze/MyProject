@@ -242,8 +242,13 @@ header {
 #service {
     @extend %mycontainer;
     margin-top: 100px;
-    .img5 {
-        margin-left: 950px;
+    .design-element5 {
+        position: relative;
+        img {
+            position: absolute;
+            top: -100px;
+            right: 0px;
+        }
     }
     .service-wrapper {
         @include d-flex(flex, center, space-between);
@@ -271,7 +276,7 @@ header {
             }
         }
         .card-box {
-            @include d-flex(flex, center, center);
+            @include d-flex(flex, start, center);
             flex-direction: column;
             width: 340px;
             height: 240px;
@@ -319,6 +324,14 @@ header {
 #menu {
     @extend %mycontainer;
     margin-top: 100px;
+    .design-element3 {
+        position: relative;
+        img {
+            position: absolute;
+            top: -50px;
+            left: -120px;
+        }
+    }
     .menu-wrapper {
         .menu-title-box {
             h3 {
@@ -439,8 +452,13 @@ header {
 #testimonials {
     margin-top: 100px;
     @extend %mycontainer;
-    .img4 {
-        margin-left: 950px;
+    .design-element4 {
+        position: relative;
+        img {
+            position: absolute;
+            top: -60px;
+            right: -90px;
+        }
     }
     .testimonials-wrapper {
         height: 600px;
@@ -524,9 +542,23 @@ header {
 // contact-section starts!....>
 #contact {
     @extend %mycontainer;
-    margin-bottom: 150px;
-    .d-img6 {
-        margin-left: 900px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    .design-element2 {
+        position: relative;
+        img {
+            position: absolute;
+            top: -100px;
+            left: -100px;
+        }
+    }
+    .design-element6 {
+        position: relative;
+        img {
+            position: absolute;
+            top: 15px;
+            right: -80px;
+        }
     }
     .contact-wrapper {
         margin-top: 70px;
@@ -661,6 +693,12 @@ header {
             width: 375px;
             img {
                 padding-bottom: $fsize05;
+                width: 120px;
+            }
+            .geo-logo {
+                width: 70px;
+                margin-left: 20px;
+                // height: 20px;
             }
             p {
                 font-size: $fsize01;
@@ -756,8 +794,9 @@ header {
                 color: $color04;
             }
         }
-        .f-img-2 {
-            width: 150px;
+
+        .geo-logo {
+            width: 80px;
         }
     }
 }

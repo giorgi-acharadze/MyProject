@@ -463,8 +463,13 @@ header .nav-item:last-child {
 #service {
   margin-top: 100px;
 }
-#service .img5 {
-  margin-left: 950px;
+#service .design-element5 {
+  position: relative;
+}
+#service .design-element5 img {
+  position: absolute;
+  top: -100px;
+  right: 0px;
 }
 #service .service-wrapper {
   display: -webkit-box;
@@ -512,9 +517,9 @@ header .nav-item:last-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -563,6 +568,14 @@ header .nav-item:last-child {
 
 #menu {
   margin-top: 100px;
+}
+#menu .design-element3 {
+  position: relative;
+}
+#menu .design-element3 img {
+  position: absolute;
+  top: -50px;
+  left: -120px;
 }
 #menu .menu-wrapper .menu-title-box h3 {
   font-size: 28px;
@@ -681,8 +694,13 @@ header .nav-item:last-child {
 #testimonials {
   margin-top: 100px;
 }
-#testimonials .img4 {
-  margin-left: 950px;
+#testimonials .design-element4 {
+  position: relative;
+}
+#testimonials .design-element4 img {
+  position: absolute;
+  top: -60px;
+  right: -90px;
 }
 #testimonials .testimonials-wrapper {
   height: 600px;
@@ -808,10 +826,24 @@ header .nav-item:last-child {
 }
 
 #contact {
-  margin-bottom: 150px;
+  margin-top: 100px;
+  margin-bottom: 200px;
 }
-#contact .d-img6 {
-  margin-left: 900px;
+#contact .design-element2 {
+  position: relative;
+}
+#contact .design-element2 img {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+}
+#contact .design-element6 {
+  position: relative;
+}
+#contact .design-element6 img {
+  position: absolute;
+  top: 15px;
+  right: -80px;
 }
 #contact .contact-wrapper {
   margin-top: 70px;
@@ -1005,6 +1037,11 @@ header .nav-item:last-child {
 }
 .footer .footer-wrapper .social-box img {
   padding-bottom: 25px;
+  width: 120px;
+}
+.footer .footer-wrapper .social-box .geo-logo {
+  width: 70px;
+  margin-left: 20px;
 }
 .footer .footer-wrapper .social-box p {
   font-size: 18px;
@@ -1132,6 +1169,6 @@ header .nav-item:last-child {
   font-family: "Montserrat", sans-serif;
   color: #585858;
 }
-.footer .footer-wrapper .f-img-2 {
-  width: 150px;
+.footer .footer-wrapper .geo-logo {
+  width: 80px;
 }/*# sourceMappingURL=global.css.map */
