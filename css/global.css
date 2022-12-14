@@ -257,6 +257,8 @@ header .nav-item:last-child {
 @media (max-width: 1040px) {
   #home .home-wrapper .left-box .left-h-box h1 {
     margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
   }
 }
 #home .home-wrapper .left-box .p-box {
@@ -275,12 +277,18 @@ header .nav-item:last-child {
   }
 }
 @media (max-width: 1040px) {
+  #home .home-wrapper .left-box .p-box p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1040px) {
   #home .home-wrapper .left-box .p-box {
     margin-bottom: 20px;
     margin-top: 20px;
+    text-align: center;
   }
 }
-#home .home-wrapper .left-box input {
+#home .home-wrapper .left-box .form input {
   width: 341px;
   padding-left: 30px;
   height: 60px;
@@ -291,16 +299,21 @@ header .nav-item:last-child {
   margin-top: 10px;
 }
 @media (max-width: 1200px) {
-  #home .home-wrapper .left-box input {
+  #home .home-wrapper .left-box .form input {
     width: 331px;
   }
 }
 @media (max-width: 1091px) {
-  #home .home-wrapper .left-box input {
+  #home .home-wrapper .left-box .form input {
     width: 321px;
   }
 }
-#home .home-wrapper .left-box button {
+@media (max-width: 1040px) {
+  #home .home-wrapper .left-box .form input {
+    width: 331px;
+  }
+}
+#home .home-wrapper .left-box .form button {
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -316,17 +329,22 @@ header .nav-item:last-child {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-#home .home-wrapper .left-box button:hover {
+#home .home-wrapper .left-box .form button:hover {
   opacity: 0.8;
 }
 @media (max-width: 1200px) {
-  #home .home-wrapper .left-box button {
+  #home .home-wrapper .left-box .form button {
     padding: 0px 27px;
   }
 }
 @media (max-width: 1091px) {
-  #home .home-wrapper .left-box button {
+  #home .home-wrapper .left-box .form button {
     padding: 0px 17px;
+  }
+}
+@media (max-width: 1040px) {
+  #home .home-wrapper .left-box .form {
+    margin: 0 auto;
   }
 }
 @media (max-width: 1240px) {
@@ -403,10 +421,9 @@ header .nav-item:last-child {
     width: 380px;
   }
 }
-@media (max-width: 1041px) {
+@media (max-width: 1040px) {
   #home .home-wrapper .right-img-box .pizza {
-    width: 300px;
-    margin-right: 30px;
+    display: none;
   }
 }
 
@@ -470,6 +487,8 @@ header .nav-item:last-child {
     margin-left: 0px;
     margin-bottom: 20px;
     width: 500px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 #about-us .about-wrapper .right-p-box {
@@ -800,6 +819,11 @@ header .nav-item:last-child {
   margin-bottom: 16px;
   text-align: center;
 }
+@media (max-width: 992px) {
+  #menu .menu-text-box h2 {
+    font-size: 25px;
+  }
+}
 #menu .menu-text-box p {
   font-size: 17px;
   font-family: "Montserrat", sans-serif;
@@ -808,8 +832,18 @@ header .nav-item:last-child {
   color: #7b7e81;
   padding: 30px;
 }
+@media (max-width: 992px) {
+  #menu .menu-text-box p {
+    font-size: 16px;
+  }
+}
 #menu .menu-text-box .menu-text1 {
   padding-bottom: 16px;
+}
+@media (max-width: 992px) {
+  #menu .menu-text-box {
+    width: 750px;
+  }
 }
 
 .card-group .card .img-wrapper {
@@ -1005,6 +1039,22 @@ header .nav-item:last-child {
   gap: 40px;
   margin-top: 40px;
 }
+@media (max-width: 1245px) {
+  #testimonials .user-box-wrapper2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px;
+  }
+}
 
 #contact {
   margin-top: 100px;
@@ -1089,6 +1139,11 @@ header .nav-item:last-child {
   font-family: "Anek Telugu", sans-serif;
   margin-bottom: 30px;
 }
+@media (max-width: 992px) {
+  #contact .contact-wrapper .form-box .left-box h1 {
+    font-size: 30px;
+  }
+}
 #contact .contact-wrapper .form-box .left-box .mail {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1148,6 +1203,11 @@ header .nav-item:last-child {
 #contact .contact-wrapper .form-box .left-box .location a {
   color: black;
   font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 992px) {
+  #contact .contact-wrapper .form-box .left-box {
+    padding: 0px;
+  }
 }
 #contact .contact-wrapper .form-box .right-box {
   background: whitesmoke;
@@ -1221,9 +1281,24 @@ header .nav-item:last-child {
     width: 850px;
   }
 }
+@media (max-width: 930px) {
+  #contact .contact-wrapper .form-box {
+    width: 800px;
+  }
+}
+@media (max-width: 876px) {
+  #contact .contact-wrapper .form-box {
+    width: 750px;
+  }
+}
 @media (max-width: 1245px) {
   #contact .contact-wrapper {
     margin-top: 380px;
+  }
+}
+@media (max-width: 807px) {
+  #contact .contact-wrapper {
+    margin-top: 880px;
   }
 }
 

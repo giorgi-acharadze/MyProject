@@ -76,6 +76,8 @@ header {
                     }
                     @media (max-width: 1040px) {
                         margin-bottom: 10px;
+                        font-size: 30px;
+                        text-align: center;
                     }
                 }
             }
@@ -90,48 +92,60 @@ header {
                     @media (max-width: 1091px) {
                         font-size: 16px;
                     }
+                    @media (max-width: 1040px) {
+                        font-size: 14px;
+                    }
                 }
                 @media (max-width: 1040px) {
                     margin-bottom: 20px;
                     margin-top: 20px;
+                    text-align: center;
                 }
             }
-            input {
-                width: 341px;
-                padding-left: $fsize06;
-                height: 60px;
-                border: none;
-                border-radius: 5px;
-                box-shadow: 3px 3px 6px #707070;
-                margin-top: 10px;
-                @media (max-width: 1200px) {
-                    width: 331px;
+            .form {
+                input {
+                    width: 341px;
+                    padding-left: $fsize06;
+                    height: 60px;
+                    border: none;
+                    border-radius: 5px;
+                    box-shadow: 3px 3px 6px #707070;
+                    margin-top: 10px;
+                    @media (max-width: 1200px) {
+                        width: 331px;
+                    }
+                    @media (max-width: 1091px) {
+                        width: 321px;
+                    }
+                    @media (max-width: 1040px) {
+                        width: 331px;
+                    }
                 }
-                @media (max-width: 1091px) {
-                    width: 321px;
+                button {
+                    font-size: 15px;
+                    font-family: "Montserrat", sans-serif;
+                    color: $colwhite;
+                    background-color: $color02;
+                    padding: 0px 37px;
+                    margin-left: $fsize07;
+                    height: 60px;
+                    box-shadow: 3px 3px 6px #59882b;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                    @media (max-width: 1200px) {
+                        padding: 0px 27px;
+                    }
+                    @media (max-width: 1091px) {
+                        padding: 0px 17px;
+                    }
                 }
-            }
-            button {
-                font-size: 15px;
-                font-family: "Montserrat", sans-serif;
-                color: $colwhite;
-                background-color: $color02;
-                padding: 0px 37px;
-                margin-left: $fsize07;
-                height: 60px;
-                box-shadow: 3px 3px 6px #59882b;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-                transition: all 0.3s ease;
-                &:hover {
-                    opacity: 0.8;
-                }
-                @media (max-width: 1200px) {
-                    padding: 0px 27px;
-                }
-                @media (max-width: 1091px) {
-                    padding: 0px 17px;
+                @media (max-width: 1040px) {
+                    margin: 0 auto;
                 }
             }
             @media (max-width: 1240px) {
@@ -183,9 +197,8 @@ header {
                 @media (max-width: 1061px) {
                     width: 380px;
                 }
-                @media (max-width: 1041px) {
-                    width: 300px;
-                    margin-right: 30px;
+                @media (max-width: 1040px) {
+                    display: none;
                 }
             }
         }
@@ -231,6 +244,8 @@ header {
                     margin-left: 0px;
                     margin-bottom: 20px;
                     width: 500px;
+                    margin-left: 0px;
+                    margin-right: 0px;
                 }
             }
         }
@@ -495,6 +510,9 @@ header {
             margin-top: $fsize04;
             margin-bottom: $fsize03;
             text-align: center;
+            @media (max-width: 992px) {
+                font-size: $fsize05;
+            }
         }
         p {
             font-size: 17px;
@@ -503,9 +521,15 @@ header {
             line-height: 30px;
             color: $color01;
             padding: 30px;
+            @media (max-width: 992px) {
+                font-size: $fsize03;
+            }
         }
         .menu-text1 {
             padding-bottom: 16px;
+        }
+        @media (max-width: 992px) {
+            width: 750px;
         }
     }
 }
@@ -648,6 +672,12 @@ header {
         @include d-flex(flex, center, center);
         gap: 40px;
         margin-top: 40px;
+        @media (max-width: 1245px) {
+            @include d-flex(flex, space-around, center);
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 20px;
+        }
     }
 }
 
@@ -705,6 +735,9 @@ header {
                     font-size: $fsize04;
                     font-family: "Anek Telugu", sans-serif;
                     margin-bottom: $fsize06;
+                    @media (max-width: 992px) {
+                        font-size: $fsize06;
+                    }
                 }
                 .mail {
                     @include d-flex(flex, start, center);
@@ -741,6 +774,9 @@ header {
                         color: $colblack;
                         font-family: "Montserrat", sans-serif;
                     }
+                }
+                @media (max-width: 992px) {
+                    padding: 0px;
                 }
             }
             .right-box {
@@ -804,9 +840,18 @@ header {
             @media (max-width: 1071px) {
                 width: 850px;
             }
+            @media (max-width: 930px) {
+                width: 800px;
+            }
+            @media (max-width: 876px) {
+                width: 750px;
+            }
         }
         @media (max-width: 1245px) {
             margin-top: 380px;
+        }
+        @media (max-width: 807px) {
+            margin-top: 880px;
         }
     }
 }
