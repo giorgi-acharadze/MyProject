@@ -53,6 +53,7 @@ header {
     @extend %mycontainer;
     .home-wrapper {
         @include d-flex(flex, space-between, center);
+
         .left-box {
             max-width: 536px;
             width: $w100;
@@ -70,6 +71,12 @@ header {
                     @media (max-width: 1165px) {
                         font-size: 50px;
                     }
+                    @media (max-width: 1091px) {
+                        font-size: 39px;
+                    }
+                    @media (max-width: 1040px) {
+                        margin-bottom: 10px;
+                    }
                 }
             }
             .p-box {
@@ -80,6 +87,13 @@ header {
                     color: #636465;
                     line-height: 36px;
                     font-family: "Montserrat", sans-serif;
+                    @media (max-width: 1091px) {
+                        font-size: 16px;
+                    }
+                }
+                @media (max-width: 1040px) {
+                    margin-bottom: 20px;
+                    margin-top: 20px;
                 }
             }
             input {
@@ -92,6 +106,9 @@ header {
                 margin-top: 10px;
                 @media (max-width: 1200px) {
                     width: 331px;
+                }
+                @media (max-width: 1091px) {
+                    width: 321px;
                 }
             }
             button {
@@ -113,6 +130,9 @@ header {
                 @media (max-width: 1200px) {
                     padding: 0px 27px;
                 }
+                @media (max-width: 1091px) {
+                    padding: 0px 17px;
+                }
             }
             @media (max-width: 1240px) {
                 margin-left: 40px;
@@ -126,10 +146,16 @@ header {
             @media (max-width: 1165px) {
                 margin-left: 40px;
             }
+            @media (max-width: 1121px) {
+                margin-left: 20px;
+            }
+            @media (max-width: 1040px) {
+                margin: 0 auto;
+            }
         }
         .right-img-box {
-            margin-top: 45px;
-            margin-left: 70px;
+            // margin-top: 45px;
+            // margin-left: 70px;
             .pizza {
                 width: 600px;
                 @media (max-width: 1255px) {
@@ -142,14 +168,24 @@ header {
                     width: 500px;
                     margin-right: 20px;
                 }
+                @media (max-width: 1181px) {
+                    width: 460px;
+                }
                 @media (max-width: 1171px) {
-                    width: 480px;
+                    width: 460px;
                 }
                 @media (max-width: 1165px) {
                     width: 440px;
                 }
                 @media (max-width: 1110px) {
-                    width: 430px;
+                    width: 400px;
+                }
+                @media (max-width: 1061px) {
+                    width: 380px;
+                }
+                @media (max-width: 1041px) {
+                    width: 300px;
+                    margin-right: 30px;
                 }
             }
         }
@@ -167,13 +203,16 @@ header {
             max-width: 1105px;
             width: $w100;
             position: relative;
+            @media (max-width: 1040px) {
+                margin-top: 400px;
+            }
             .leaf2 {
                 position: absolute;
                 top: 30px;
                 left: 30px;
                 @media (max-width: 1040px) {
                     top: 30px;
-                    left: 180px;
+                    left: 300px;
                 }
             }
             .chief-img {
@@ -248,6 +287,7 @@ header {
                 }
                 @media (max-width: 1040px) {
                     margin-top: 10px;
+                    margin-bottom: 240px;
                 }
             }
             @media (max-width: 1240px) {
@@ -291,6 +331,9 @@ header {
 
         max-width: 1170px;
         width: 100%;
+        @media (max-width: 1040px) {
+            margin-top: 250px;
+        }
         .card-box-wrapper {
             @include d-flex(flex, space-evenly, center);
             @media (max-width: 1230px) {
@@ -757,6 +800,9 @@ header {
             @media (max-width: 1245px) {
                 width: 1000px;
                 @include d-flex(flex, space-around, center);
+            }
+            @media (max-width: 1071px) {
+                width: 850px;
             }
         }
         @media (max-width: 1245px) {
