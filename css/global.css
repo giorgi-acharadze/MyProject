@@ -522,6 +522,11 @@ header .nav-item:last-child {
   top: -100px;
   right: 0px;
 }
+@media (max-width: 1181px) {
+  #service .design-element5 img {
+    right: 30px;
+  }
+}
 #service .service-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -647,7 +652,12 @@ header .nav-item:last-child {
 }
 @media (max-width: 1121px) {
   #menu .design-element3 img {
-    left: 10px;
+    left: 20px;
+  }
+}
+@media (max-width: 1181px) {
+  #menu .design-element3 img {
+    left: 30px;
   }
 }
 #menu .menu-wrapper .menu-title-box h3 {
@@ -1174,8 +1184,25 @@ header .nav-item:last-child {
           align-items: center;
   width: 100%;
 }
+@media (max-width: 1285px) {
+  .footer .footer-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 .footer .footer-wrapper .f-img-1 {
   width: 170px;
+}
+@media (max-width: 1285px) {
+  .footer .footer-wrapper .f-img-1 {
+    width: 120px;
+  }
 }
 .footer .footer-wrapper .social-box {
   width: 375px;
@@ -1184,9 +1211,24 @@ header .nav-item:last-child {
   padding-bottom: 25px;
   width: 120px;
 }
+@media (max-width: 1181px) {
+  .footer .footer-wrapper .social-box img {
+    width: 50px;
+  }
+}
+@media (max-width: 1285px) {
+  .footer .footer-wrapper .social-box img {
+    width: 100px;
+  }
+}
 .footer .footer-wrapper .social-box .geo-logo {
   width: 70px;
   margin-left: 20px;
+}
+@media (max-width: 1285px) {
+  .footer .footer-wrapper .social-box .geo-logo {
+    width: 55px;
+  }
 }
 .footer .footer-wrapper .social-box p {
   font-size: 18px;
@@ -1194,6 +1236,11 @@ header .nav-item:last-child {
   line-height: 30px;
   margin-bottom: 30px;
   color: #585858;
+}
+@media (max-width: 1285px) {
+  .footer .footer-wrapper .social-box p {
+    font-size: 13px;
+  }
 }
 .footer .footer-wrapper .social-box .soc-icon-box {
   display: -webkit-box;
@@ -1234,6 +1281,27 @@ header .nav-item:last-child {
   font-size: 20px;
   color: white;
 }
+.footer .footer-wrapper .right-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (max-width: 1285px) {
+  .footer .footer-wrapper .right-box {
+    gap: 20px;
+  }
+}
+@media (max-width: 1285px) and (max-width: 1285px) {
+  .footer .footer-wrapper .right-box img {
+    width: 120px;
+  }
+}
 .footer .footer-wrapper .footer-list1-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1248,6 +1316,11 @@ header .nav-item:last-child {
   font-size: 18px;
   font-family: "Anek Telugu", sans-serif;
   margin-top: 40px;
+}
+@media (max-width: 1285px) {
+  .footer .footer-wrapper .footer-list1-box h3 {
+    font-size: 14px;
+  }
 }
 .footer .footer-wrapper .footer-list1-box .f-ul-1 {
   display: -webkit-box;
@@ -1264,6 +1337,11 @@ header .nav-item:last-child {
   font-family: "Montserrat", sans-serif;
   color: #585858;
 }
+@media (max-width: 1285px) {
+  .footer .footer-wrapper .footer-list1-box .f-ul-1 a {
+    font-size: 12px;
+  }
+}
 .footer .footer-wrapper .footer-list2-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1278,6 +1356,11 @@ header .nav-item:last-child {
   font-size: 18px;
   font-family: "Anek Telugu", sans-serif;
   margin-top: 40px;
+}
+@media (max-width: 1285px) {
+  .footer .footer-wrapper .footer-list2-box h3 {
+    font-size: 14px;
+  }
 }
 .footer .footer-wrapper .footer-list2-box .f-ul-2 {
   display: -webkit-box;
@@ -1294,6 +1377,11 @@ header .nav-item:last-child {
   font-family: "Montserrat", sans-serif;
   color: #585858;
 }
+@media (max-width: 1285px) {
+  .footer .footer-wrapper .footer-list2-box .f-ul-2 a {
+    font-size: 13px;
+  }
+}
 .footer .footer-wrapper .footer-contact-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1309,8 +1397,18 @@ header .nav-item:last-child {
   font-family: "Anek Telugu", sans-serif;
   margin-top: 40px;
 }
+@media (max-width: 1285px) {
+  .footer .footer-wrapper .footer-contact-box h3 {
+    font-size: 14px;
+  }
+}
 .footer .footer-wrapper .footer-contact-box h4 {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   color: #585858;
+}
+@media (max-width: 1285px) {
+  .footer .footer-wrapper .footer-contact-box h4 {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=global.css.map */

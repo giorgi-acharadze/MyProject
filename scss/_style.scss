@@ -279,6 +279,9 @@ header {
             position: absolute;
             top: -100px;
             right: 0px;
+            @media (max-width: 1181px) {
+                right: 30px;
+            }
         }
     }
     .service-wrapper {
@@ -372,9 +375,11 @@ header {
                 left: -10px;
             }
             @media (max-width: 1121px) {
-                left: 10px;
+                left: 20px;
             }
-
+            @media (max-width: 1181px) {
+                left: 30px;
+            }
         }
     }
     .menu-wrapper {
@@ -516,7 +521,7 @@ header {
                 right: -10px;
             }
             @media (max-width: 1206px) {
-               right: 60px;
+                right: 60px;
             }
         }
     }
@@ -621,7 +626,6 @@ header {
             @media (max-width: 1181px) {
                 left: 30px;
             }
-
         }
     }
     .design-element6 {
@@ -770,19 +774,34 @@ header {
     .footer-wrapper {
         @include d-flex(flex, space-between, center);
         width: $w100;
+        @media (max-width: 1285px) {
+            @include d-flex(flex, space-around, center);
+        }
 
         .f-img-1 {
             width: 170px;
+            @media (max-width: 1285px) {
+                width: 120px;
+            }
         }
         .social-box {
             width: 375px;
             img {
                 padding-bottom: $fsize05;
                 width: 120px;
+                @media (max-width: 1181px) {
+                    width: 50px;
+                }
+                @media (max-width: 1285px) {
+                    width: 100px;
+                }
             }
             .geo-logo {
                 width: 70px;
                 margin-left: 20px;
+                @media (max-width: 1285px) {
+                    width: 55px;
+                }
             }
             p {
                 font-size: $fsize01;
@@ -790,6 +809,9 @@ header {
                 line-height: 30px;
                 margin-bottom: $fsize06;
                 color: $color04;
+                @media (max-width: 1285px) {
+                    font-size: 13px;
+                }
             }
             .soc-icon-box {
                 @include d-flex(flex, flex-start, center);
@@ -823,6 +845,17 @@ header {
                 }
             }
         }
+        .right-box {
+            @include d-flex(flex, space-between, center);
+            @media (max-width: 1285px) {
+                gap: 20px;
+                img {
+                    @media (max-width: 1285px) {
+                        width: 120px;
+                    }
+                }
+            }
+        }
         .footer-list1-box {
             display: flex;
             flex-direction: column;
@@ -831,6 +864,9 @@ header {
                 font-size: $fsize01;
                 font-family: "Anek Telugu", sans-serif;
                 margin-top: $fsize04;
+                @media (max-width: 1285px) {
+                    font-size: 14px;
+                }
             }
             .f-ul-1 {
                 display: flex;
@@ -840,6 +876,9 @@ header {
                     font-size: $fsize03;
                     font-family: "Montserrat", sans-serif;
                     color: $color04;
+                    @media (max-width: 1285px) {
+                        font-size: 12px;
+                    }
                 }
             }
         }
@@ -851,6 +890,9 @@ header {
                 font-size: $fsize01;
                 font-family: "Anek Telugu", sans-serif;
                 margin-top: $fsize04;
+                @media (max-width: 1285px) {
+                    font-size: 14px;
+                }
             }
             .f-ul-2 {
                 display: flex;
@@ -860,6 +902,9 @@ header {
                     font-size: $fsize03;
                     font-family: "Montserrat", sans-serif;
                     color: $color04;
+                    @media (max-width: 1285px) {
+                        font-size: 13px;
+                    }
                 }
             }
         }
@@ -871,12 +916,21 @@ header {
                 font-size: $fsize01;
                 font-family: "Anek Telugu", sans-serif;
                 margin-top: $fsize04;
+                @media (max-width: 1285px) {
+                    font-size: 14px;
+                }
             }
             h4 {
                 font-size: $fsize03;
                 font-family: "Montserrat", sans-serif;
                 color: $color04;
+                @media (max-width: 1285px) {
+                    font-size: 12px;
+                }
             }
+        }
+        @media (max-width: 1286px) {
+            // flex-wrap: wrap;
         }
     }
 }
