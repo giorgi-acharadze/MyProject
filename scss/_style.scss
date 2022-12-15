@@ -102,52 +102,53 @@ header {
                     text-align: center;
                 }
             }
-            .form {
-                input {
-                    width: 341px;
-                    padding-left: $fsize06;
-                    height: 60px;
-                    border: none;
-                    border-radius: 5px;
-                    box-shadow: 3px 3px 6px #707070;
-                    margin-top: 10px;
-                    @media (max-width: 1200px) {
-                        width: 331px;
-                    }
-                    @media (max-width: 1091px) {
-                        width: 321px;
-                    }
-                    @media (max-width: 1040px) {
-                        width: 331px;
-                    }
+
+            input {
+                width: 341px;
+                padding-left: $fsize06;
+                height: 60px;
+                border: none;
+                border-radius: 5px;
+                box-shadow: 3px 3px 6px #707070;
+                margin-top: 10px;
+                @media (max-width: 1200px) {
+                    width: 331px;
                 }
-                button {
-                    font-size: 15px;
-                    font-family: "Montserrat", sans-serif;
-                    color: $colwhite;
-                    background-color: $color02;
-                    padding: 0px 37px;
-                    margin-left: $fsize07;
-                    height: 60px;
-                    box-shadow: 3px 3px 6px #59882b;
-                    border: none;
-                    border-radius: 5px;
-                    cursor: pointer;
-                    transition: all 0.3s ease;
-                    &:hover {
-                        opacity: 0.8;
-                    }
-                    @media (max-width: 1200px) {
-                        padding: 0px 27px;
-                    }
-                    @media (max-width: 1091px) {
-                        padding: 0px 17px;
-                    }
+                @media (max-width: 1091px) {
+                    width: 321px;
                 }
                 @media (max-width: 1040px) {
-                    margin: 0 auto;
+                    width: 331px;
+                }
+                @media (max-width: 586px) {
+                    width: 250px;
                 }
             }
+            button {
+                font-size: 15px;
+                font-family: "Montserrat", sans-serif;
+                color: $colwhite;
+                background-color: $color02;
+                padding: 0px 37px;
+                margin-left: $fsize07;
+                height: 60px;
+                box-shadow: 3px 3px 6px #59882b;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:hover {
+                    opacity: 0.8;
+                }
+                @media (max-width: 1200px) {
+                    padding: 0px 27px;
+                }
+                @media (max-width: 1091px) {
+                    padding: 0px 17px;
+                    text-align: center;
+                }
+            }
+
             @media (max-width: 1240px) {
                 margin-left: 40px;
             }
@@ -165,6 +166,10 @@ header {
             }
             @media (max-width: 1040px) {
                 margin: 0 auto;
+            }
+            @media (max-width: 586px) {
+                @include d-flex(flex, center, center);
+                flex-direction: column;
             }
         }
         .right-img-box {
@@ -227,6 +232,12 @@ header {
                     top: 30px;
                     left: 300px;
                 }
+                @media (max-width: 920px) {
+                    left: 250px;
+                }
+                @media (max-width: 790px) {
+                    left: 150px;
+                }
             }
             .chief-img {
                 width: 560px;
@@ -241,11 +252,14 @@ header {
                     width: 420px;
                 }
                 @media (max-width: 1040px) {
-                    margin-left: 0px;
                     margin-bottom: 20px;
                     width: 500px;
                     margin-left: 0px;
                     margin-right: 0px;
+                }
+                @media (max-width: 575px) {
+                    width: 400px;
+                    text-align: center;
                 }
             }
         }
@@ -260,12 +274,22 @@ header {
                 @media (max-width: 1240px) {
                     font-size: $fsize05;
                 }
+                @media (max-width: 575px) {
+                    text-align: center;
+                }
             }
             h2 {
                 font-size: $fsize04;
                 font-family: "Anek Telugu", sans-serif;
                 color: black;
                 margin-bottom: $fsize06;
+                @media (max-width: 1240px) {
+                    font-size: $fsize05;
+                }
+                @media (max-width: 575px) {
+                    text-align: center;
+                    font-size: $fsize07;
+                }
             }
             .p1 {
                 font-size: 17px;
@@ -274,6 +298,10 @@ header {
                 line-height: 30px;
                 @media (max-width: 1240px) {
                     font-size: 15px;
+                }
+                @media (max-width: 575px) {
+                    text-align: center;
+                    font-size: 13px;
                 }
             }
             .btn2 {
@@ -306,10 +334,22 @@ header {
                 }
             }
             @media (max-width: 1240px) {
-                margin-right: 40px;
+                margin: 0 auto;
+                // margin-right: 0px;
+                // margin-left: 0px;
             }
             @media (max-width: 1230px) {
                 margin-right: 50px;
+                // margin: 0 auto;
+            }
+            @media (max-width: 1040px) {
+                margin: 0 auto;
+            }
+            @media (max-width: 680px) {
+                margin: 0 auto;
+            }
+            @media (max-width: 575px) {
+                margin: 0 auto;
             }
         }
         @media (max-width: 1240px) {
@@ -517,6 +557,9 @@ header {
             @media (max-width: 992px) {
                 font-size: $fsize05;
             }
+            @media (max-width: 680px) {
+                font-size: $fsize07;
+            }
         }
         p {
             font-size: 17px;
@@ -525,8 +568,26 @@ header {
             line-height: 30px;
             color: $color01;
             padding: 30px;
+            @media (max-width: 1240px) {
+                font-size: 15px;
+            }
+
             @media (max-width: 992px) {
                 font-size: $fsize03;
+            }
+            @media (max-width: 820px) {
+                font-size: 14px;
+                text-align: center;
+            }
+            @media (max-width: 680px) {
+                font-size: 14px;
+            }
+            @media (max-width: 575px) {
+                text-align: center;
+                font-size: 13px;
+            }
+            @media (max-width: 586px) {
+                text-align: center;
             }
         }
         .menu-text1 {
@@ -540,6 +601,12 @@ header {
         }
         @media (max-width: 770px) {
             width: 600px;
+        }
+        @media (max-width: 680px) {
+            width: 500px;
+        }
+        @media (max-width: 586px) {
+            width: 450px;
         }
     }
 }
@@ -578,6 +645,13 @@ header {
             }
         }
     }
+
+    // @media (max-width: 900px) {
+    //     flex-direction: column;
+    //     width: 50%;
+    //     margin: 0 auto;
+    //     gap: 20px;
+    // }
 }
 // card-styles.....>
 // menu-menu-section ends !....>
@@ -803,6 +877,9 @@ header {
                         font-size: $fsize06;
                         font-family: "Anek Telugu", sans-serif;
                         margin-bottom: $fsize06;
+                        @media (max-width: 680px) {
+                            font-size: $fsize05;
+                        }
                     }
                 }
                 form {
@@ -864,6 +941,12 @@ header {
             }
             @media (max-width: 770px) {
                 width: 600px;
+            }
+            @media (max-width: 680px) {
+                width: 500px;
+            }
+            @media (max-width: 586px) {
+                width: 450px;
             }
         }
         @media (max-width: 1245px) {
