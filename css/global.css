@@ -400,6 +400,11 @@ header .nav-item:last-child {
             flex-direction: column;
   }
 }
+@media (max-width: 550px) {
+  #home .home-wrapper .left-box {
+    width: 400px;
+  }
+}
 #home .home-wrapper .right-img-box .pizza {
   width: 600px;
 }
@@ -447,6 +452,12 @@ header .nav-item:last-child {
 @media (max-width: 1040px) {
   #home .home-wrapper .right-img-box .pizza {
     display: none;
+  }
+}
+@media (max-width: 550px) {
+  #home .home-wrapper {
+    width: 400px;
+    margin: 0 auto;
   }
 }
 
