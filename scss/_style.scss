@@ -147,6 +147,9 @@ header {
                     padding: 0px 17px;
                     text-align: center;
                 }
+                @media (max-width: 567px) {
+                    font-size: 13px;
+                }
             }
 
             @media (max-width: 1240px) {
@@ -238,6 +241,9 @@ header {
                 @media (max-width: 790px) {
                     left: 150px;
                 }
+                @media (max-width: 630px) {
+                    left: 100px;
+                }
             }
             .chief-img {
                 width: 560px;
@@ -260,6 +266,9 @@ header {
                 @media (max-width: 575px) {
                     width: 400px;
                     text-align: center;
+                }
+                @media (max-width: 567px) {
+                    width: 350px;
                 }
             }
         }
@@ -332,6 +341,10 @@ header {
                     margin-top: 10px;
                     margin-bottom: 240px;
                 }
+                @media (max-width: 567px) {
+                    width: 150px;
+                    font-size: 13px;
+                }
             }
             @media (max-width: 1240px) {
                 margin: 0 auto;
@@ -350,6 +363,11 @@ header {
             }
             @media (max-width: 575px) {
                 margin: 0 auto;
+            }
+            @media (max-width: 567px) {
+                width: 350px;
+                text-align: center;
+                line-height: 18px;
             }
         }
         @media (max-width: 1240px) {
@@ -376,6 +394,9 @@ header {
             right: 0px;
             @media (max-width: 1181px) {
                 right: 30px;
+            }
+            @media (max-width: 992px) {
+                width: 100px;
             }
         }
     }
@@ -409,6 +430,13 @@ header {
                 font-family: "Anek Telugu", sans-serif;
                 color: $colblack;
                 margin-bottom: $fsize06;
+                @media (max-width: 1240px) {
+                    font-size: $fsize05;
+                }
+                @media (max-width: 575px) {
+                    text-align: center;
+                    font-size: $fsize07;
+                }
             }
         }
         .card-box {
@@ -478,138 +506,155 @@ header {
             @media (max-width: 1181px) {
                 left: 30px;
             }
+            @media (max-width: 992px) {
+                width: 100px;
+            }
+            @media (max-width: 575px) {
+                left: 10px;
+            }
         }
     }
-    .menu-wrapper {
-        .menu-title-box {
-            h3 {
-                font-size: $fsize02;
-                font-family: "Montserrat", sans-serif;
-                color: $color03;
-                margin-bottom: 16px;
-                text-align: center;
+}
+.menu-wrapper {
+    .menu-title-box {
+        h3 {
+            font-size: $fsize02;
+            font-family: "Montserrat", sans-serif;
+            color: $color03;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+        h1 {
+            font-size: $fsize04;
+            font-family: "Anek Telugu", sans-serif;
+            color: $colblack;
+            margin-bottom: $fsize06;
+            text-align: center;
+            @media (max-width: 1240px) {
+                font-size: $fsize05;
             }
-            h1 {
-                font-size: $fsize04;
-                font-family: "Anek Telugu", sans-serif;
-                color: $colblack;
-                margin-bottom: $fsize06;
+            @media (max-width: 575px) {
                 text-align: center;
+                font-size: $fsize07;
             }
-            .menu-list-box {
-                margin-bottom: $fsize06;
-                ul {
-                    @include d-flex(flex, center, center);
-                    li {
-                        font-size: $fsize01;
-                        font-family: "Montserrat", sans-serif;
-                        margin-right: $fsize06;
-                        border: 2px solid $color01;
-                        border-radius: 10px;
-                        padding: 8px 12px;
-                        transition: color 0.3s ease;
-                        &:last-child {
-                            margin: 0px;
+        }
+        .menu-list-box {
+            margin-bottom: $fsize06;
+            ul {
+                @include d-flex(flex, center, center);
+                li {
+                    font-size: $fsize01;
+                    font-family: "Montserrat", sans-serif;
+                    margin-right: $fsize06;
+                    border: 2px solid $color01;
+                    border-radius: 10px;
+                    padding: 8px 12px;
+                    transition: color 0.3s ease;
+                    &:last-child {
+                        margin: 0px;
+                    }
+                    a {
+                        color: $colblack;
+                        &:hover {
+                            color: $color04;
                         }
-                        a {
-                            color: $colblack;
-                            &:hover {
-                                color: $color04;
-                            }
-                        }
-                        @media (max-width: 770px) {
-                            font-size: $fsize03;
-                            padding: 6px 10px;
-                        }
+                    }
+                    @media (max-width: 770px) {
+                        font-size: $fsize03;
+                        padding: 6px 10px;
                     }
                 }
             }
         }
     }
-    .myheight {
-        height: 210px;
-    }
+}
+.myheight {
+    height: 210px;
+}
 
-    .mywidth {
-        width: 282px;
-    }
-    .mywidth2 {
-        width: 500px;
-    }
-    .mymargin {
-        margin-left: 350px;
-    }
-    .menu-text-box {
-        max-width: 800px;
-        width: $w100;
-        margin: 0 auto;
-        padding: 20px;
-        border-radius: 8px;
-        // box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
-        box-shadow: 3px 3px 6px #707070;
-        h2 {
-            font-size: $fsize02;
-            font-family: "Anek Telugu", sans-serif;
-            color: $colblack;
-            margin-top: $fsize04;
-            margin-bottom: $fsize03;
-            text-align: center;
-            @media (max-width: 992px) {
-                font-size: $fsize05;
-            }
-            @media (max-width: 680px) {
-                font-size: $fsize07;
-            }
-        }
-        p {
-            font-size: 17px;
-            font-family: "Montserrat", sans-serif;
-            text-align: start;
-            line-height: 30px;
-            color: $color01;
-            padding: 30px;
-            @media (max-width: 1240px) {
-                font-size: 15px;
-            }
-
-            @media (max-width: 992px) {
-                font-size: $fsize03;
-            }
-            @media (max-width: 820px) {
-                font-size: 14px;
-                text-align: center;
-            }
-            @media (max-width: 680px) {
-                font-size: 14px;
-            }
-            @media (max-width: 575px) {
-                text-align: center;
-                font-size: 13px;
-            }
-            @media (max-width: 586px) {
-                text-align: center;
-            }
-        }
-        .menu-text1 {
-            padding-bottom: 16px;
-        }
+.mywidth {
+    width: 282px;
+}
+.mywidth2 {
+    width: 500px;
+}
+.mymargin {
+    margin-left: 350px;
+}
+.menu-text-box {
+    max-width: 800px;
+    width: $w100;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    // box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
+    box-shadow: 3px 3px 6px #707070;
+    h2 {
+        font-size: $fsize02;
+        font-family: "Anek Telugu", sans-serif;
+        color: $colblack;
+        margin-top: $fsize04;
+        margin-bottom: $fsize03;
+        text-align: center;
         @media (max-width: 992px) {
-            width: 750px;
-        }
-        @media (max-width: 820px) {
-            width: 700px;
-        }
-        @media (max-width: 770px) {
-            width: 600px;
+            font-size: $fsize05;
         }
         @media (max-width: 680px) {
-            width: 500px;
-        }
-        @media (max-width: 586px) {
-            width: 450px;
+            font-size: $fsize07;
         }
     }
+    p {
+        font-size: 17px;
+        font-family: "Montserrat", sans-serif;
+        text-align: start;
+        line-height: 30px;
+        color: $color01;
+        padding: 30px;
+        @media (max-width: 1240px) {
+            font-size: 15px;
+        }
+
+        @media (max-width: 992px) {
+            font-size: $fsize03;
+        }
+        @media (max-width: 820px) {
+            font-size: 14px;
+            text-align: center;
+        }
+        @media (max-width: 680px) {
+            font-size: 14px;
+        }
+        @media (max-width: 575px) {
+            text-align: center;
+            font-size: 13px;
+        }
+        @media (max-width: 586px) {
+            text-align: center;
+        }
+    }
+    .menu-text1 {
+        padding-bottom: 16px;
+    }
+    @media (max-width: 992px) {
+        width: 750px;
+    }
+    @media (max-width: 820px) {
+        width: 700px;
+    }
+    @media (max-width: 770px) {
+        width: 600px;
+    }
+    @media (max-width: 680px) {
+        width: 500px;
+    }
+    @media (max-width: 586px) {
+        width: 450px;
+    }
+    @media (max-width: 567px) {
+        width: 400px;
+    }
 }
+
 // card-styles !....>
 .card-group {
     .card {
@@ -674,6 +719,10 @@ header {
             @media (max-width: 1206px) {
                 right: 60px;
             }
+            @media (max-width: 575px) {
+                right: 10px;
+                width: 100px;
+            }
         }
     }
     .testimonials-wrapper {
@@ -694,6 +743,13 @@ header {
                 color: $colblack;
                 margin-bottom: $fsize06;
                 text-align: center;
+                @media (max-width: 1240px) {
+                    font-size: $fsize05;
+                }
+                @media (max-width: 575px) {
+                    text-align: center;
+                    font-size: $fsize07;
+                }
             }
         }
         .testimonial-user-box {
@@ -783,6 +839,9 @@ header {
             @media (max-width: 1181px) {
                 left: 30px;
             }
+            @media (max-width: 992px) {
+                width: 60px;
+            }
         }
     }
     .design-element6 {
@@ -796,6 +855,9 @@ header {
             }
             @media (max-width: 1226px) {
                 right: 20px;
+            }
+            @media (max-width: 992px) {
+                width: 100px;
             }
         }
     }
@@ -921,6 +983,10 @@ header {
                     &:hover {
                         opacity: 0.8;
                     }
+                    @media (max-width: 567px) {
+                        font-size: 13px;
+                        width: 160px;
+                    }
                 }
             }
             @media (max-width: 1245px) {
@@ -947,6 +1013,9 @@ header {
             }
             @media (max-width: 586px) {
                 width: 450px;
+            }
+            @media (max-width: 567px) {
+                width: 400px;
             }
         }
         @media (max-width: 1245px) {
@@ -1084,6 +1153,12 @@ header {
                         }
                     }
                 }
+                @media (max-width: 1090px) {
+                    gap: 20px;
+                }
+                @media (max-width: 930px) {
+                    gap: 15px;
+                }
             }
             .footer-list2-box {
                 display: flex;
@@ -1110,6 +1185,12 @@ header {
                         }
                     }
                 }
+                @media (max-width: 1090px) {
+                    gap: 20px;
+                }
+                @media (max-width: 930px) {
+                    gap: 15px;
+                }
             }
             .footer-contact-box {
                 display: flex;
@@ -1130,6 +1211,12 @@ header {
                     @media (max-width: 1285px) {
                         font-size: 12px;
                     }
+                }
+                @media (max-width: 1090px) {
+                    gap: 20px;
+                }
+                @media (max-width: 930px) {
+                    gap: 15px;
                 }
             }
             img {
