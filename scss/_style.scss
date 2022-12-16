@@ -676,18 +676,7 @@ header {
             }
         }
         .card-body {
-            p {
-                font-family: "Anek Telugu", sans-serif;
-                cursor: pointer;
-            }
-            h5 {
-                font-family: "Montserrat", sans-serif;
-            }
-            .card-title {
-                margin-bottom: 20px;
-            }
             .card-text {
-                line-height: 20px;
                 padding-bottom: 10px;
                 position: relative;
                 .text-muted {
@@ -706,6 +695,32 @@ header {
     // }
 }
 // card-styles.....>
+// page-card- styles-starts!!!!!!!!
+.card {
+    .img-wrapper {
+        overflow: hidden;
+        img {
+            transition: 0.5s ease-in-out;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+    .card-body {
+        p {
+            font-family: "Anek Telugu", sans-serif;
+            cursor: pointer;
+        }
+        h5 {
+            font-family: "Montserrat", sans-serif;
+            padding-bottom: 10px;
+        }
+        .card-text {
+            line-height: 20px;
+        }
+    }
+}
+
 // menu-menu-section ends !....>
 // testimonial-section starts! >>>>>
 #testimonials {
