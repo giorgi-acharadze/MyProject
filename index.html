@@ -25,7 +25,58 @@
     </head>
     <body>
         <!-- header starts ! -->
-        <header>
+
+        <header class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="./images/logo-icon.svg" alt="logo" />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-us">
+                                    About us
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#service">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonials">
+                                    Testimonials
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- <header>
             <div class="container">
                 <a href="index.html" class="logo">
                     <img src="./images/logo-icon.svg" alt="logo" />
@@ -33,7 +84,6 @@
                 <div class="right-box">
                     <nav class="navbar navbar-expand-lg">
                         <div class="container-fluid">
-                            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
                             <button
                                 class="navbar-toggler"
                                 type="button"
@@ -46,7 +96,7 @@
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div
-                                class="collapse navbar-collapse"
+                                class="collapse navbar-collapse my-cola"
                                 id="navbarSupportedContent"
                             >
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -107,7 +157,7 @@
                                             <li>
                                                 <a
                                                     class="dropdown-item my-a"
-                                                    href="#"
+                                                    href="pages/dessert.html"
                                                     >Another action</a
                                                 >
                                             </li>
@@ -130,37 +180,15 @@
                                             alt="shopping-icon"
                                         />
                                     </div>
-                                    <!-- <li class="nav-item">
-                                        <a class="nav-link disabled"
-                                            >Disabled</a
-                                        >
-                                    </li> -->
+                                    
                                 </ul>
                             </div>
                         </div>
                     </nav>
-                    <!-- <nav class="navigation">
-                        <ul class="navigation-ul">
-                            <li class="navigation-li">
-                                <a href="#home">Home</a>
-                            </li>
-                            <li class="navigation-li">
-                                <a href="#about-us">About Us</a>
-                            </li>
-                            <li class="navigation-li">
-                                <a href="#service">Service</a>
-                            </li>
-                            <li class="navigation-li">
-                                <a href="#menu">Menu</a>
-                            </li>
-                            <li class="navigation-li">
-                                <a class="li-a" href="#sign-up">Sign In</a>
-                            </li>
-                        </ul>
-                    </nav> -->
+                    
                 </div>
             </div>
-        </header>
+        </header> -->
         <!-- header ends!------- -->
         <!-- home-section starts! -->
         <section id="home">
@@ -176,6 +204,7 @@
                             sources.
                         </p>
                     </div>
+
                     <form class="form" action="#">
                         <input type="mail" placeholder="Enter Your Address" />
                         <button type="submit">Get Started</button>
@@ -320,15 +349,14 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div
-                    id="carouselExampleControls"
-                    class="carousel slide w-75 m-auto mb-4"
-                    data-bs-ride="carousel"
-                >
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="card-group">
+                    <div
+                        id="carouselExampleControls"
+                        class="carousel slide w-75 m-auto mb-4"
+                        data-bs-ride="carousel"
+                    >
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <!-- <div class="card-group">
                                 <div class="card me-2">
                                     <div class="img-wrapper">
                                         <img
@@ -356,10 +384,45 @@
                                         />
                                     </div>
                                 </div>
+                            </div> -->
+                                <div class="row g-3">
+                                    <div class="col-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="img-wrapper">
+                                                <img
+                                                    src="../images/lnch-CALABRESE-pizza.jpg"
+                                                    class="card-img-top"
+                                                    alt="calabresa-img"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="img-wrapper">
+                                                <img
+                                                    src="../images/lnch-Lasagne.jpg"
+                                                    class="card-img-top"
+                                                    alt="lasagna-img"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="img-wrapper">
+                                                <img
+                                                    src="../images/lnch-burger.jpg"
+                                                    class="card-img-top"
+                                                    alt="burger-img"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card-group">
+                            <div class="carousel-item">
+                                <!-- <div class="card-group">
                                 <div class="card me-2">
                                     <div class="img-wrapper">
                                         <img
@@ -387,33 +450,69 @@
                                         />
                                     </div>
                                 </div>
+                            </div> -->
+                                <div class="row g-3">
+                                    <div class="col-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="img-wrapper">
+                                                <img
+                                                    src="../images/lnch-pei mussels.jpg"
+                                                    class="card-img-top"
+                                                    alt="pei-mussels-img"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="img-wrapper">
+                                                <img
+                                                    src="../images/lnch-BLACK PEPPER TAGLIATELLE.jpg"
+                                                    class="card-img-top"
+                                                    alt="tagliatelle-img"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4">
+                                        <div class="card">
+                                            <div class="img-wrapper">
+                                                <img
+                                                    src="../images/lnch-margherita-pizza-with-tomato-sauce-cheese-basil-mushroom.jpg"
+                                                    class="card-img-top"
+                                                    alt="margherita-pizza-img"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev"
+                        >
+                            <span
+                                class="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next"
+                        >
+                            <span
+                                class="carousel-control-next-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev"
-                    >
-                        <span
-                            class="carousel-control-prev-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next"
-                    >
-                        <span
-                            class="carousel-control-next-icon"
-                            aria-hidden="true"
-                        ></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
             <div class="menu-text-box">
@@ -434,6 +533,7 @@
             </div>
         </section>
         <!-- menu-section ends !..-->
+        <!-- testimonial-section starts!... -->
         <!-- testimonial-section starts!... -->
         <section id="testimonials">
             <div class="design-element4">
@@ -561,10 +661,16 @@
             </div>
         </section>
         <!-- testimonial-section ends!... -->
+        <!-- testimonial-section ends!... -->
         <!-- contact-section starts!.... -->
         <section id="contact">
             <div class="design-element2">
-                <img src="./images/design-element2.png" alt="design-element2" />
+                <div class="leaf">
+                    <img
+                        src="./images/design-element2.png"
+                        alt="design-element2"
+                    />
+                </div>
             </div>
             <div class="contact-wrapper">
                 <div class="form-box">
