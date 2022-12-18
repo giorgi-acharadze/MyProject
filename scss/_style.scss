@@ -164,7 +164,7 @@ header {
                     width: 220px;
                 }
                 @media (max-width: 386px) {
-                    width: 200px;
+                    width: 180px;
                     height: 50px;
                 }
             }
@@ -275,6 +275,9 @@ header {
         @media (max-width: 470px) {
             width: 350px;
         }
+        @media (max-width: 386px) {
+            width: 320px;
+        }
     }
 }
 // home-section ends!///////
@@ -347,6 +350,12 @@ header {
                 @media (max-width: 420px) {
                     width: 300px;
                 }
+                @media (max-width: 386px) {
+                    width: 280px;
+                }
+            }
+            @media (max-width: 575px) {
+                margin-top: 250px;
             }
         }
         .right-p-box {
@@ -399,6 +408,10 @@ header {
                 @media (max-width: 420px) {
                     line-height: 22px;
                     font-size: 12px;
+                }
+                @media (max-width: 386px) {
+                    font-size: 10px;
+                    line-height: 18px;
                 }
             }
             .btn2 {
@@ -460,6 +473,9 @@ header {
                 width: 350px;
                 text-align: center;
                 line-height: 18px;
+            }
+            @media (max-width: 386px) {
+                width: 260px;
             }
         }
         @media (max-width: 1240px) {
@@ -569,6 +585,9 @@ header {
                 font-family: "Montserrat", sans-serif;
                 margin-bottom: 25px;
                 font-weight: 600;
+                @media (max-width: 386px) {
+                    font-size: 13px;
+                }
             }
             p {
                 font-size: 11px;
@@ -577,6 +596,10 @@ header {
                 margin-bottom: 10px;
                 list-style: none;
                 line-height: 20px;
+            }
+            @media (max-width: 386px) {
+                width: 300px;
+                height: 240px;
             }
         }
     }
@@ -763,6 +786,9 @@ header {
         @media (max-width: 420px) {
             font-size: 12px;
         }
+        @media (max-width: 386px) {
+            font-size: 11px;
+        }
     }
 }
 .menu-text1 {
@@ -793,6 +819,9 @@ header {
     }
     @media (max-width: 420px) {
         width: 330px;
+    }
+    @media (max-width: 386px) {
+        width: 300px;
     }
 }
 
@@ -933,6 +962,9 @@ header {
                 @media (max-width: 420px) {
                     font-size: 12px;
                 }
+                @media (max-width: 386px) {
+                    font-size: 11px;
+                }
             }
             .user-img-box {
                 @include d-flex(flex, flex-start, center);
@@ -950,6 +982,9 @@ header {
                     font-size: 14px;
                     font-family: "Montserrat", sans-serif;
                     cursor: pointer;
+                    @media (max-width: 386px) {
+                        font-size: 13px;
+                    }
                 }
                 h3 {
                     font-size: 14px;
@@ -957,6 +992,9 @@ header {
                     padding-top: 6px;
                     font-family: "Anek Telugu", sans-serif;
                     cursor: pointer;
+                    @media (max-width: 386px) {
+                        font-size: 13px;
+                    }
                 }
             }
             .edit {
@@ -964,6 +1002,9 @@ header {
             }
             @media (max-width: 420px) {
                 width: 340px;
+            }
+            @media (max-width: 386px) {
+                width: 300px;
             }
         }
     }
@@ -1210,6 +1251,9 @@ header {
             }
             @media (max-width: 420px) {
                 box-shadow: none;
+            }
+            @media (max-width: 387px) {
+                width: 320px;
             }
         }
         @media (max-width: 1245px) {
