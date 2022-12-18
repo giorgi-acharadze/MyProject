@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    width: 100%;
+    width: $w100;
     margin: 0 auto;
     position: fixed;
     top: 0;
@@ -58,52 +58,8 @@ header {
     }
 }
 
-// header {
-//     width: $w100;
-//     height: 53px;
-//     background-color: $colwhite;
-//     position: fixed;
-//     top: 0px;
-//     left: 0px;
-//     right: 0px;
-//     z-index: 100;
-//     .container {
-//         @include d-flex(flex, space-between, center);
-//         // padding: 30px 30px;
-//     }
-//     .logo {
-//         color: $colblack;
-//     }
-//     .right-box {
-//         @include d-flex(flex, space-between, center);
-//     }
-//     .nav-item {
-//         display: inline-block;
-//         margin-right: $fsize07;
-//         .my-a {
-//             font-family: "Montserrat", sans-serif;
-//             font-size: $fsize03;
-//             color: $colblack;
-//             font-weight: 500;
-//             transition: color 0.3s;
-//             &:hover {
-//                 color: $color01 !important;
-//             }
-//         }
-
-//         &:last-child {
-//             margin-right: $fsize04;
-//         }
-//     }
-// }
-// .bag-icon {
-//     width: 15px;
-//     display: inline-block;
-//     cursor: pointer;
-// }
-
-// header ends !///////////////
-// home-section starts! ///////
+// header ends !..........>
+// home-section starts! ....>
 #home {
     @extend %mycontainer;
     .home-wrapper {
