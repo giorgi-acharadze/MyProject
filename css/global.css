@@ -1301,6 +1301,10 @@ header nav .container-fluid .navbar-collapse .navbar-nav .nav-item.cart a img {
   top: 0px;
 }
 
+.row {
+  margin-top: 50px;
+}
+
 .card .img-wrapper {
   overflow: hidden;
 }
@@ -1900,6 +1904,7 @@ header nav .container-fluid .navbar-collapse .navbar-nav .nav-item.cart a img {
   height: 400px;
   width: 100%;
   background-color: #f8fbf5;
+  margin-top: 100px;
 }
 .footer .footer-wrapper {
   position: relative;

@@ -859,7 +859,9 @@ header {
 }
 // card-styles.....>
 // page-card- styles-starts!!!!!!!!
-
+.row {
+    margin-top: 50px;
+}
 .card {
     .img-wrapper {
         overflow: hidden;
@@ -884,7 +886,6 @@ header {
         }
     }
 }
-
 // menu-menu-section ends !....>
 // testimonial-section starts! >>>>>
 // testimonial-section starts! >>>>>
@@ -1273,6 +1274,7 @@ header {
     height: 400px;
     width: $w100;
     background-color: #f8fbf5;
+    margin-top: 100px;
     .footer-wrapper {
         position: relative;
         .f-img-1 {
