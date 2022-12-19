@@ -849,13 +849,6 @@ header {
             }
         }
     }
-
-    // @media (max-width: 900px) {
-    //     flex-direction: column;
-    //     width: 50%;
-    //     margin: 0 auto;
-    //     gap: 20px;
-    // }
 }
 // card-styles.....>
 // page-card- styles-starts!!!!!!!!
@@ -917,8 +910,6 @@ header {
         }
     }
     .testimonials-wrapper {
-        // min-height: 600px;
-        // height: 100%;
         margin-bottom: 100px;
         .testimonial-title-box {
             @include d-flex(flex, center, center);
@@ -945,7 +936,6 @@ header {
                 }
             }
         }
-
         .testimonial-user-box {
             width: 360px;
             // max-height: 228px;
@@ -1257,14 +1247,6 @@ header {
                 width: 320px;
             }
         }
-        @media (max-width: 1245px) {
-            // margin-top: 380px;
-            // margin-top: 50px;
-        }
-
-        @media (max-width: 807px) {
-            // margin-top: 880px;
-        }
     }
 }
 // contact-section ends ! ......>
@@ -1291,6 +1273,19 @@ header {
                 display: none;
             }
         }
+        .g-img-2 {
+            @media (max-width: 1285px) {
+                width: 120px;
+            }
+            @media (max-width: 930px) {
+                position: absolute;
+                right: 0px;
+                bottom: 0px;
+            }
+            @media (max-width: 700px) {
+                display: none;
+            }
+        }
         .social-box {
             width: 375px;
             img {
@@ -1302,12 +1297,20 @@ header {
                 @media (max-width: 1285px) {
                     width: 100px;
                 }
+                @media (max-width: 387.2px) {
+                    width: 60px;
+                    padding-bottom: 10px;
+                }
             }
             .geo-logo {
                 width: 70px;
                 margin-left: 20px;
                 @media (max-width: 1285px) {
                     width: 55px;
+                }
+                @media (max-width: 387.2px) {
+                    width: 40px;
+                    padding-bottom: 10px;
                 }
             }
             p {
@@ -1333,6 +1336,9 @@ header {
                     .fa-facebook {
                         font-size: $fsize07;
                         color: $colwhite;
+                        @media (max-width: 387.2px) {
+                            font-size: $fsize03;
+                        }
                     }
                 }
                 .twitter-icon {
@@ -1342,6 +1348,9 @@ header {
                     .fa-twitter {
                         font-size: $fsize07;
                         color: $colwhite;
+                        @media (max-width: 387.2px) {
+                            font-size: $fsize03;
+                        }
                     }
                 }
                 .instagram-icon {
@@ -1351,6 +1360,9 @@ header {
                     .fa-instagram {
                         font-size: $fsize07;
                         color: $colwhite;
+                        @media (max-width: 387.2px) {
+                            font-size: $fsize03;
+                        }
                     }
                 }
             }
@@ -1377,8 +1389,11 @@ header {
                     font-size: $fsize03;
                     font-family: "Anek Telugu", sans-serif;
                     margin-top: $fsize04;
-                    @media (max-width: 1285px) {
-                        font-size: 13px;
+                    @media (max-width: 1286px) {
+                        font-size: 14px;
+                    }
+                    @media (max-width: 700px) {
+                        font-size: 12px;
                     }
                 }
                 .f-ul-1 {
@@ -1389,9 +1404,18 @@ header {
                         font-size: $fsize03;
                         font-family: "Montserrat", sans-serif;
                         color: $color04;
-                        @media (max-width: 1285px) {
+                        @media (max-width: 1286px) {
                             font-size: 12px;
                         }
+                        @media (max-width: 700px) {
+                            font-size: 10px;
+                        }
+                    }
+                    @media (max-width: 1286px) {
+                        gap: 15px;
+                    }
+                    @media (max-width: 700px) {
+                        gap: 10px;
                     }
                 }
                 @media (max-width: 1090px) {
@@ -1399,6 +1423,9 @@ header {
                 }
                 @media (max-width: 930px) {
                     gap: 15px;
+                }
+                @media (max-width: 700px) {
+                    gap: 10px;
                 }
             }
             .footer-list2-box {
@@ -1409,8 +1436,11 @@ header {
                     font-size: $fsize03;
                     font-family: "Anek Telugu", sans-serif;
                     margin-top: $fsize04;
-                    @media (max-width: 1285px) {
-                        font-size: 13px;
+                    @media (max-width: 1286px) {
+                        font-size: 14px;
+                    }
+                    @media (max-width: 700px) {
+                        font-size: 12px;
                     }
                 }
                 .f-ul-2 {
@@ -1421,9 +1451,18 @@ header {
                         font-size: $fsize03;
                         font-family: "Montserrat", sans-serif;
                         color: $color04;
-                        @media (max-width: 1285px) {
-                            font-size: 13px;
+                        @media (max-width: 1286px) {
+                            font-size: 12px;
                         }
+                        @media (max-width: 700px) {
+                            font-size: 10px;
+                        }
+                    }
+                    @media (max-width: 1286px) {
+                        gap: 15px;
+                    }
+                    @media (max-width: 700px) {
+                        gap: 10px;
                     }
                 }
                 @media (max-width: 1090px) {
@@ -1431,6 +1470,9 @@ header {
                 }
                 @media (max-width: 930px) {
                     gap: 15px;
+                }
+                @media (max-width: 700px) {
+                    gap: 10px;
                 }
             }
             .footer-contact-box {
@@ -1441,37 +1483,50 @@ header {
                     font-size: $fsize03;
                     font-family: "Anek Telugu", sans-serif;
                     margin-top: $fsize04;
-                    @media (max-width: 1285px) {
+                    @media (max-width: 1286px) {
                         font-size: 14px;
+                        @media (max-width: 700px) {
+                            font-size: 12px;
+                        }
+                        @media (max-width: 387.2px) {
+                            margin-top: 0px;
+                        }
                     }
                 }
                 h4 {
                     font-size: $fsize03;
                     font-family: "Montserrat", sans-serif;
                     color: $color04;
-                    @media (max-width: 1285px) {
+                    @media (max-width: 1286px) {
                         font-size: 12px;
+                    }
+                    @media (max-width: 700px) {
+                        font-size: 10px;
                     }
                 }
                 @media (max-width: 1090px) {
                     gap: 20px;
                 }
-                @media (max-width: 930px) {
-                    gap: 15px;
+                @media (max-width: 1286px) {
+                    gap: 22px;
                 }
-            }
-            img {
+                @media (max-width: 1090px) {
+                    gap: 20px;
+                }
                 @media (max-width: 930px) {
-                    position: absolute;
-                    right: 0px;
-                    bottom: 0px;
+                    gap: 19px;
                 }
                 @media (max-width: 700px) {
-                    display: none;
+                    gap: 16px;
                 }
             }
             @media (max-width: 771px) {
                 margin-bottom: 40px;
+            }
+            @media (max-width: 430px) {
+                @include d-flex(flex, center, center);
+                flex-wrap: wrap;
+                gap: 30px;
             }
         }
 
@@ -1488,6 +1543,10 @@ header {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+        }
+        @media (max-width: 700px) {
+            @include d-flex(flex, center, center);
+            // flex-wrap: wrap;
         }
     }
 }
