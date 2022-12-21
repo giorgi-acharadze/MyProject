@@ -1627,6 +1627,7 @@ header nav .container-fluid .navbar-collapse .navbar-nav .nav-item.cart a img {
       -ms-flex-align: center;
           align-items: center;
   max-width: 1170px;
+  width: 100%;
   height: 550px;
   width: 100%;
   margin: 0 auto;
@@ -2277,6 +2278,7 @@ header nav .container-fluid .navbar-collapse .navbar-nav .nav-item.cart a img {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   color: #585858;
+  cursor: pointer;
 }
 @media (max-width: 1286px) {
   .footer .footer-wrapper .right-box .footer-contact-box h4 {

@@ -64,7 +64,6 @@ header {
     @extend %mycontainer;
     .home-wrapper {
         @include d-flex(flex, space-between, center);
-
         .left-box {
             max-width: 536px;
             width: $w100;
@@ -1070,6 +1069,7 @@ header {
         .form-box {
             @include d-flex(flex, space-evenly, center);
             max-width: 1170px;
+            width: 100%;
             height: 550px;
             width: $w100;
             margin: 0 auto;
@@ -1497,6 +1497,7 @@ header {
                     font-size: $fsize03;
                     font-family: "Montserrat", sans-serif;
                     color: $color04;
+                    cursor: pointer;
                     @media (max-width: 1286px) {
                         font-size: 12px;
                     }
