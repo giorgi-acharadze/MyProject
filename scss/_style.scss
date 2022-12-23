@@ -54,6 +54,7 @@ header {
                     }
                     .dropdown {
                         .dropdown-menu {
+                            padding-top: 0px;
                             li {
                                 a {
                                     font-family: "Montserrat", sans-serif;
@@ -62,7 +63,9 @@ header {
                                     font-weight: 500;
                                     transition: color 0.3s ease-out;
                                     border-bottom: 2px solid transparent;
-
+                                    margin-top: 6px;
+                                    padding-top: 10px !important;
+                                    padding-bottom: 10px !important;
                                     &:hover {
                                         color: $color01 !important;
                                         transition: color 0.3s ease-out;
