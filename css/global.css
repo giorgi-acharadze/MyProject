@@ -204,6 +204,25 @@ header nav .container-fluid .navbar-collapse .navbar-nav .nav-item.cart a {
 header nav .container-fluid .navbar-collapse .navbar-nav .nav-item.cart a img {
   width: 100%;
 }
+header nav .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu li a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+  border-bottom: 2px solid transparent;
+}
+header nav .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu li a:hover {
+  color: #7b7e81 !important;
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+  border-bottom: 2px solid #8cb560;
+  background: none !important;
+}
+header nav .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu li a:active {
+  background: none !important;
+}
 
 #home .home-wrapper {
   display: -webkit-box;

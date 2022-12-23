@@ -52,6 +52,30 @@ header {
                             }
                         }
                     }
+                    .dropdown {
+                        .dropdown-menu {
+                            li {
+                                a {
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: $fsize03;
+                                    color: $colblack;
+                                    font-weight: 500;
+                                    transition: color 0.3s ease-out;
+                                    border-bottom: 2px solid transparent;
+
+                                    &:hover {
+                                        color: $color01 !important;
+                                        transition: color 0.3s ease-out;
+                                        border-bottom: 2px solid $color02;
+                                        background: none !important;
+                                    }
+                                    &:active {
+                                        background: none !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
