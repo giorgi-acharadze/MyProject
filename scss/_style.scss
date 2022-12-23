@@ -88,14 +88,14 @@ header {
     @extend %mycontainer;
     .home-wrapper {
         @include d-flex(flex, space-between, center);
-        max-width: 100%;
-        width: 100%;
+        max-width: $w100;
+        width: $w100;
         .left-box {
             max-width: 536px;
             width: $w100;
             .left-h-box {
                 max-width: 534px;
-                width: 100%;
+                width: $w100;
                 h1 {
                     font-size: 60px;
                     line-height: 90px;
@@ -542,14 +542,14 @@ header {
         }
     }
     .service-wrapper {
-        max-width: 100%;
-        width: 100%;
+        max-width: $w100;
+        width: $w100;
         @include d-flex(flex, center, space-between);
         flex-direction: column;
         text-align: center;
 
         max-width: 1170px;
-        width: 100%;
+        width: $w100;
         @media (max-width: 1040px) {
             margin-top: 250px;
         }
@@ -669,8 +669,8 @@ header {
     }
 }
 .menu-wrapper {
-    max-width: 100%;
-    width: 100%;
+    max-width: $w100;
+    width: $w100;
     .menu-title-box {
         h3 {
             font-size: $fsize02;
@@ -941,8 +941,8 @@ header {
         }
     }
     .testimonials-wrapper {
-        max-width: 100%;
-        width: 100%;
+        max-width: $w100;
+        width: $w100;
         margin-bottom: 100px;
         .testimonial-title-box {
             @include d-flex(flex, center, center);
@@ -1099,8 +1099,8 @@ header {
         }
     }
     .contact-wrapper {
-        max-width: 100%;
-        width: 100%;
+        max-width: $w100;
+        width: $w100;
         margin-top: 50px;
         .form-box {
             @include d-flex(flex, space-evenly, center);
@@ -1279,7 +1279,7 @@ header {
                 box-shadow: none;
             }
             @media (max-width: 387px) {
-                width: 100%;
+                width: $w100;
             }
         }
     }
