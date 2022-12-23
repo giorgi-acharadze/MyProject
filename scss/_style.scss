@@ -45,9 +45,9 @@ header {
                         }
                         &.cart {
                             a {
-                                width: 15px;
+                                width: $fsize08;
                                 img {
-                                    width: 100%;
+                                    width: $w100;
                                 }
                             }
                         }
@@ -194,7 +194,7 @@ header {
                 }
             }
             button {
-                font-size: 15px;
+                font-size: $fsize08;
                 font-family: "Montserrat", sans-serif;
                 color: $colwhite;
                 background-color: $color02;
@@ -392,7 +392,7 @@ header {
                 font-size: $fsize02;
                 font-family: "Montserrat", sans-serif;
                 color: $color03;
-                margin-bottom: 16px;
+                margin-bottom: $fsize03;
                 @media (max-width: 1240px) {
                     font-size: $fsize05;
                 }
@@ -419,7 +419,7 @@ header {
                 color: #636465;
                 line-height: 30px;
                 @media (max-width: 1240px) {
-                    font-size: 15px;
+                    font-size: $fsize08;
                 }
                 @media (max-width: 1130px) {
                     line-height: 28px;
@@ -610,7 +610,7 @@ header {
             }
 
             h4 {
-                font-size: 16px;
+                font-size: $fsize03;
                 font-family: "Montserrat", sans-serif;
                 margin-bottom: 25px;
                 font-weight: 600;
@@ -676,7 +676,7 @@ header {
             font-size: $fsize02;
             font-family: "Montserrat", sans-serif;
             color: $color03;
-            margin-bottom: 16px;
+            margin-bottom: $fsize03;
             text-align: center;
         }
         h1 {
@@ -823,7 +823,7 @@ header {
     }
 }
 .menu-text1 {
-    padding-bottom: 16px;
+    padding-bottom: $fsize03;
 }
 
 .menu-text-box {
@@ -1060,7 +1060,7 @@ header {
     // margin-top: 100px;
     margin-bottom: 200px;
     .design-element2 {
-        width: 100%;
+        width: $w100;
         .leaf {
             width: 74px;
             margin-left: 0;
@@ -1200,7 +1200,7 @@ header {
                         }
                     }
                     label {
-                        font-size: 16px;
+                        font-size: $fsize03;
                         font-family: "Montserrat", sans-serif;
                         @media (max-width: 420px) {
                             font-size: 14px;
@@ -1209,7 +1209,7 @@ header {
                     textarea {
                         width: 300px;
                         height: 60px;
-                        font-size: 15px;
+                        font-size: $fsize08;
                         padding: 10px;
                         border-radius: 4px;
                         margin-top: $fsize07;
@@ -1447,7 +1447,7 @@ header {
                         }
                     }
                     @media (max-width: 1286px) {
-                        gap: 15px;
+                        gap: $fsize08;
                     }
                     @media (max-width: 700px) {
                         gap: 10px;
@@ -1504,7 +1504,7 @@ header {
                     gap: 20px;
                 }
                 @media (max-width: 930px) {
-                    gap: 15px;
+                    gap: $fsize08;
                 }
                 @media (max-width: 700px) {
                     gap: 10px;
