@@ -126,8 +126,8 @@ header {
                         font-size: 22px;
                     }
                     @media (max-width: 386px) {
-                        font-size: 20px;
-                        line-height: 20px;
+                        font-size: $fsize07;
+                        line-height: $fsize07;
                     }
                 }
             }
@@ -152,12 +152,12 @@ header {
                         line-height: 25px;
                     }
                     @media (max-width: 470px) {
-                        line-height: 20px;
+                        line-height: $fsize07;
                     }
                 }
                 @media (max-width: 1040px) {
-                    margin-bottom: 20px;
-                    margin-top: 20px;
+                    margin-bottom: $fsize07;
+                    margin-top: $fsize07;
                     text-align: center;
                 }
             }
@@ -271,7 +271,7 @@ header {
                 }
                 @media (max-width: 1200px) {
                     width: 500px;
-                    margin-right: 20px;
+                    margin-right: $fsize07;
                 }
                 @media (max-width: 1181px) {
                     width: 460px;
@@ -362,7 +362,7 @@ header {
                     width: 420px;
                 }
                 @media (max-width: 1040px) {
-                    margin-bottom: 20px;
+                    margin-bottom: $fsize07;
                     width: 500px;
                     margin-left: 0px;
                     margin-right: 0px;
@@ -460,7 +460,7 @@ header {
                 @media (max-width: 1130px) {
                     width: 200px;
                     height: 50px;
-                    margin-top: 20px;
+                    margin-top: $fsize07;
                 }
                 @media (max-width: 1080px) {
                     margin-top: 10px;
@@ -565,7 +565,7 @@ header {
                 font-size: $fsize02;
                 font-family: "Montserrat", sans-serif;
                 color: $color03;
-                margin-bottom: 16px;
+                margin-bottom: $fsize03;
                 text-align: center;
             }
             h2 {
@@ -587,7 +587,7 @@ header {
             flex-direction: column;
             width: 340px;
             height: 240px;
-            padding: 30px 20px;
+            padding: 30px $fsize07;
             background-color: #f8fbf5;
             transition: all 0.5s ease-in;
             cursor: pointer;
@@ -603,7 +603,7 @@ header {
             .menu-icon {
                 width: 50px;
                 height: 50px;
-                margin-bottom: 20px;
+                margin-bottom: $fsize07;
             }
             .myheight {
                 height: 60px;
@@ -624,7 +624,7 @@ header {
                 text-align: center;
                 margin-bottom: 10px;
                 list-style: none;
-                line-height: 20px;
+                line-height: $fsize07;
             }
             @media (max-width: 386px) {
                 width: 300px;
@@ -651,7 +651,7 @@ header {
                 left: -10px;
             }
             @media (max-width: 1121px) {
-                left: 20px;
+                left: $fsize07;
             }
             @media (max-width: 1181px) {
                 left: 30px;
@@ -762,7 +762,7 @@ header {
     max-width: 800px;
     width: $w100;
     margin: 0 auto;
-    padding: 20px;
+    padding: $fsize07;
     border-radius: 8px;
     // box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
     box-shadow: 3px 3px 6px #707070;
@@ -906,7 +906,7 @@ header {
             padding-bottom: 10px;
         }
         .card-text {
-            line-height: 20px;
+            line-height: $fsize07;
         }
     }
 }
@@ -1038,7 +1038,7 @@ header {
             @include d-flex(flex, space-around, center);
             flex-wrap: wrap;
             gap: 30px;
-            margin: 20px;
+            margin: $fsize07;
         }
     }
     .user-box-wrapper2 {
@@ -1049,7 +1049,7 @@ header {
             @include d-flex(flex, space-around, center);
             flex-wrap: wrap;
             gap: 30px;
-            margin: 20px;
+            margin: $fsize07;
         }
     }
 }
@@ -1339,7 +1339,7 @@ header {
             }
             .geo-logo {
                 width: 70px;
-                margin-left: 20px;
+                margin-left: $fsize07;
                 @media (max-width: 1285px) {
                     width: 55px;
                 }
@@ -1454,10 +1454,10 @@ header {
                     }
                 }
                 @media (max-width: 1090px) {
-                    gap: 20px;
+                    gap: $fsize07;
                 }
                 @media (max-width: 930px) {
-                    gap: 15px;
+                    gap: $fsize08;
                 }
                 @media (max-width: 700px) {
                     gap: 10px;
@@ -1501,7 +1501,7 @@ header {
                     }
                 }
                 @media (max-width: 1090px) {
-                    gap: 20px;
+                    gap: $fsize07;
                 }
                 @media (max-width: 930px) {
                     gap: $fsize08;
@@ -1541,19 +1541,19 @@ header {
                     }
                 }
                 @media (max-width: 1090px) {
-                    gap: 20px;
+                    gap: $fsize07;
                 }
                 @media (max-width: 1286px) {
                     gap: 22px;
                 }
                 @media (max-width: 1090px) {
-                    gap: 20px;
+                    gap: $fsize07;
                 }
                 @media (max-width: 930px) {
                     gap: 19px;
                 }
                 @media (max-width: 700px) {
-                    gap: 16px;
+                    gap: $fsize03;
                 }
             }
             @media (max-width: 771px) {
