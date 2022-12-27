@@ -594,36 +594,7 @@ header nav .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-men
 }
 @media (max-width: 1040px) {
   #about-us .about-wrapper .left-img-box .leaf2 {
-    top: 30px;
-    left: 300px;
-    width: 65px;
-  }
-}
-@media (max-width: 920px) {
-  #about-us .about-wrapper .left-img-box .leaf2 {
-    left: 250px;
-  }
-}
-@media (max-width: 790px) {
-  #about-us .about-wrapper .left-img-box .leaf2 {
-    left: 150px;
-  }
-}
-@media (max-width: 630px) {
-  #about-us .about-wrapper .left-img-box .leaf2 {
-    left: 100px;
-    width: 60px;
-  }
-}
-@media (max-width: 480px) {
-  #about-us .about-wrapper .left-img-box .leaf2 {
-    left: 70px;
-    width: 60px;
-  }
-}
-@media (max-width: 420px) {
-  #about-us .about-wrapper .left-img-box .leaf2 {
-    width: 50px;
+    display: none;
   }
 }
 #about-us .about-wrapper .left-img-box .chief-img {

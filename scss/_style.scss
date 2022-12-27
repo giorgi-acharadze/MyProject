@@ -332,26 +332,7 @@ header {
                 top: 30px;
                 left: 30px;
                 @media (max-width: 1040px) {
-                    top: 30px;
-                    left: 300px;
-                    width: 65px;
-                }
-                @media (max-width: 920px) {
-                    left: 250px;
-                }
-                @media (max-width: 790px) {
-                    left: 150px;
-                }
-                @media (max-width: 630px) {
-                    left: 100px;
-                    width: 60px;
-                }
-                @media (max-width: 480px) {
-                    left: 70px;
-                    width: 60px;
-                }
-                @media (max-width: 420px) {
-                    width: 50px;
+                    display: none;
                 }
             }
             .chief-img {
