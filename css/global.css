@@ -342,6 +342,12 @@ header nav .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-men
 }
 #home .home-wrapper .left-box .form {
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 #home .home-wrapper .left-box input {
   width: 341px;
