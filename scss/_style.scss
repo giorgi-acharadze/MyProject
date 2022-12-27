@@ -208,7 +208,7 @@ header {
                 border: none;
                 border-radius: 5px;
                 cursor: pointer;
-                transition: all 0.3s ease;
+                transition: 0.3s ease-in;
                 &:hover {
                     opacity: 0.8;
                 }
@@ -456,7 +456,7 @@ header {
                 border-radius: 5px;
                 margin-top: 50px;
                 cursor: pointer;
-                transition: all 0.3s ease;
+                transition: 0.3s ease-in;
                 &:hover {
                     opacity: 0.8;
                 }
@@ -697,7 +697,7 @@ header {
             }
         }
         .menu-list-box {
-            margin-bottom: $fsize06;
+            // margin-bottom: $fsize06;
             ul {
                 @include d-flex(flex, center, center);
                 @media (max-width: 570px) {
@@ -713,11 +713,8 @@ header {
                     font-weight: 500;
                     margin-right: $fsize06;
                     background: #f8fbf5;
-                    // border: 2px solid $color01;
-                    // border-radius: 10px;
                     padding: 8px 12px;
                     border-bottom: 2px solid transparent;
-                    // transition: color 0.3s ease;
                     transition: all 0.5s ease-in;
                     &:hover {
                         background-color: white;
@@ -728,8 +725,6 @@ header {
                     a {
                         color: $colblack;
                         &:hover {
-                            // color: $color04;
-
                             border-bottom: 2px solid #8cb560;
                         }
                     }
@@ -767,7 +762,6 @@ header {
     margin: 0 auto;
     padding: $fsize07;
     border-radius: 8px;
-    // box-shadow: 8px 12px 23px 7px rgba(128, 128, 128, 0.77);
     box-shadow: 3px 3px 6px #707070;
     h2 {
         font-size: $fsize02;
@@ -974,7 +968,6 @@ header {
         }
         .testimonial-user-box {
             width: 360px;
-            // max-height: 228px;
             background-color: $colwhite;
             border: 1px solid #f0f2f5;
             border: none;
@@ -1233,7 +1226,7 @@ header {
                     border: none;
                     border-radius: 5px;
                     cursor: pointer;
-                    transition: all 0.3s ease;
+                    transition: 0.3s ease-in;
                     &:hover {
                         opacity: 0.8;
                     }
