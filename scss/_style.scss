@@ -539,6 +539,9 @@ header {
         @media (max-width: 1040px) {
             margin-top: 250px;
         }
+        @media (max-width: 574px) {
+            margin-top:100px;
+        }
         .card-box-wrapper {
             @include d-flex(flex, space-evenly, center);
             @media (max-width: 1230px) {
