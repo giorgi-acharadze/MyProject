@@ -37,6 +37,8 @@ header {
                             font-weight: 500;
                             transition: color 0.3s ease-out;
                             border-bottom: 2px solid transparent;
+                            margin: 0 10px;
+                            // padding: 0;
                             &:hover {
                                 color: $color01 !important;
                                 transition: color 0.3s ease-out;
