@@ -390,6 +390,21 @@ header nav .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-men
     height: 50px;
   }
 }
+#home .home-wrapper .left-box input::-webkit-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+}
+#home .home-wrapper .left-box input::-moz-placeholder {
+  font-family: "Montserrat", sans-serif;
+}
+#home .home-wrapper .left-box input:-ms-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+}
+#home .home-wrapper .left-box input::-ms-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+}
+#home .home-wrapper .left-box input::placeholder {
+  font-family: "Montserrat", sans-serif;
+}
 #home .home-wrapper .left-box button {
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
